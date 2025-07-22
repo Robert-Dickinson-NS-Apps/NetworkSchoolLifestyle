@@ -37,17 +37,23 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 to-green-50 py-20">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-6xl font-bold text-neutral mb-8">
-            Life After 70 in <span className="text-primary">Malaysia</span>
+      <section className="relative py-20 overflow-hidden">
+        <img 
+          src="/forest-city.png" 
+          alt="Forest City Malaysia" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
+          <h1 className="text-6xl font-bold text-white mb-8 drop-shadow-lg">
+            Life After 70 in <span className="text-yellow-400">Malaysia</span>
           </h1>
-          <p className="text-2xl text-gray-600 mb-12 max-w-4xl mx-auto">
+          <p className="text-2xl text-white mb-12 max-w-4xl mx-auto drop-shadow-md">
             Discover the advantages of living at Network School in Forest City, Malaysia - 
             just 15 minutes across a small bridge to Singapore
           </p>
-          <div className="flex items-center justify-center text-xl text-gray-600 mb-8">
-            <MapPin className="mr-2 text-primary" size={24} />
+          <div className="flex items-center justify-center text-xl text-white mb-8 drop-shadow-md">
+            <MapPin className="mr-2 text-yellow-400" size={24} />
             Forest City, Malaysia • 15 minutes to Singapore
           </div>
           
