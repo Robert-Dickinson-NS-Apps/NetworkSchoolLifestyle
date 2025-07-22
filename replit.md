@@ -1,12 +1,13 @@
-# REST Express Application with React Frontend
+# Network School Forest City Website
 
 ## Overview
 
-This is a full-stack web application built with React frontend and Express.js backend. The application appears to be a college campus visit scheduling system with contact forms and newsletter subscription functionality. It uses a modern tech stack with TypeScript, Tailwind CSS, shadcn/ui components, and Drizzle ORM for database management.
+This is a full-stack web application showcasing Network School lifestyle and amenities for people aged 70+. The website features a clean, box-based layout highlighting specific advantages of living at the Network School in Forest City, Malaysia. It includes contact forms for inquiries and uses a modern tech stack with TypeScript, Tailwind CSS, shadcn/ui components, and Drizzle ORM for database management.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design preference: Simple box layout with background images for each feature/advantage.
 
 ## System Architecture
 

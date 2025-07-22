@@ -31,17 +31,11 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
         <nav className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-center items-center">
             <div className="flex items-center">
               <GraduationCap className="text-primary mr-3" size={40} />
               <span className="text-3xl font-bold text-neutral">Network School Forest City</span>
             </div>
-            <Button 
-              onClick={scrollToContact}
-              className="bg-primary text-white px-8 py-4 text-xl font-medium hover:bg-blue-700"
-            >
-              Schedule Visit
-            </Button>
           </div>
         </nav>
       </header>
@@ -73,11 +67,15 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             {/* Fitness */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Dumbbell className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Burn Exercise Tent</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Dedicated instructor with dozens of weight equipment designed specifically for your age group. 
                   Stay strong and healthy with professional guidance.
                 </p>
@@ -85,11 +83,15 @@ export default function Home() {
             </Card>
 
             {/* Pools */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Waves className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Many Pools</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Multiple swimming pools for exercise, therapy, and relaxation. 
                   Water activities perfect for joint health and social connection.
                 </p>
@@ -97,11 +99,15 @@ export default function Home() {
             </Card>
 
             {/* Nutrition */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Utensils className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Blueprint Food</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Scientifically designed nutrition plan optimized for longevity and health. 
                   Never worry about meal planning again.
                 </p>
@@ -109,11 +115,15 @@ export default function Home() {
             </Card>
 
             {/* Morning Ruck */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Sun className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Morning Ruck</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Start every day with a group walk. Build community, stay active, 
                   and enjoy the beautiful Malaysian weather together.
                 </p>
@@ -121,11 +131,15 @@ export default function Home() {
             </Card>
 
             {/* Smart Young People */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Smart Younger People</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Get fresh perspectives on life from brilliant young minds. 
                   Learn from each other and stay mentally sharp.
                 </p>
@@ -133,11 +147,15 @@ export default function Home() {
             </Card>
 
             {/* AI Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Bot className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">AI Classes</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Learn about artificial intelligence in practical, easy-to-understand ways. 
                   Stay current with the future of technology.
                 </p>
@@ -145,11 +163,15 @@ export default function Home() {
             </Card>
 
             {/* Book Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Book className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Book Classes</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Discuss great books with fellow lifelong learners. 
                   Expand your mind through literature and ideas.
                 </p>
@@ -157,11 +179,15 @@ export default function Home() {
             </Card>
 
             {/* Vibe Coding */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Code className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Vibe Coding</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Learn new tools like vibe coding - modern programming made accessible. 
                   Create and build in the digital age.
                 </p>
@@ -169,11 +195,15 @@ export default function Home() {
             </Card>
 
             {/* Network States */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Globe className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Build Network States</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Help design the future by building ideas for other network states. 
                   Be part of creating tomorrow's communities.
                 </p>
@@ -181,11 +211,15 @@ export default function Home() {
             </Card>
 
             {/* Improv Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <TheaterIcon className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Improv Classes</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Express yourself creatively through improvisational theater. 
                   Have fun while building confidence and social skills.
                 </p>
@@ -193,11 +227,15 @@ export default function Home() {
             </Card>
 
             {/* Country Rock Night */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Guitar className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Country Rock Night</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Enjoy live music and entertainment with your community. 
                   Dance, sing along, and make memories together.
                 </p>
@@ -205,11 +243,15 @@ export default function Home() {
             </Card>
 
             {/* Better Person */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Heart className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">How to Be a Better Person</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Focus on personal growth and development. 
                   Learn strategies for living your best life after 70.
                 </p>
@@ -217,11 +259,15 @@ export default function Home() {
             </Card>
 
             {/* Global Community */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">People from All Over the World</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Meet fascinating people from dozens of different countries. 
                   Expand your worldview through diverse friendships.
                 </p>
@@ -229,11 +275,15 @@ export default function Home() {
             </Card>
 
             {/* Crypto & Web3 */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+              ></div>
+              <CardContent className="p-8 relative z-10 bg-white/90">
                 <Bitcoin className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Learn Crypto & Web3</h3>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-700">
                   Understand the future of money and the internet. 
                   Get expert guidance on digital currencies and blockchain technology.
                 </p>
@@ -272,9 +322,9 @@ export default function Home() {
       <section id="contact" className="py-20 bg-gradient-to-br from-primary to-secondary text-white">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold mb-6">Ready to Visit?</h2>
+            <h2 className="text-5xl font-bold mb-6">Get in Touch</h2>
             <p className="text-2xl">
-              Schedule your tour of Network School Forest City and see what life after 70 could look like
+              Contact us to learn more about life at Network School Forest City
             </p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">

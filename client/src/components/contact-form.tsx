@@ -38,8 +38,8 @@ export function ContactForm() {
     },
     onSuccess: () => {
       toast({
-        title: "Visit Scheduled!",
-        description: "We'll contact you within 24 hours to confirm your visit details.",
+        title: "Message Sent!",
+        description: "We'll get back to you within 24 hours with more information.",
       });
       setFormData({
         name: "",
@@ -148,12 +148,12 @@ export function ContactForm() {
         {contactMutation.isPending ? (
           <>
             <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-            Scheduling...
+            Sending...
           </>
         ) : (
           <>
             <Send className="mr-2 h-5 w-5" />
-            Schedule My Visit
+            Send Message
           </>
         )}
       </Button>
