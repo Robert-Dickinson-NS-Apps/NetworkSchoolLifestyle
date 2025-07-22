@@ -20,6 +20,8 @@ import {
   Waves
 } from "lucide-react";
 
+import forestCityImage from "@assets/2025-07-22_14-18-55_1753165170134.png";
+
 export default function Home() {
 
   return (
@@ -78,7 +80,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -100,7 +102,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -122,7 +124,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -144,7 +146,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -166,7 +168,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -188,7 +190,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -210,7 +212,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -232,7 +234,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -254,7 +256,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -276,7 +278,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -298,7 +300,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -320,7 +322,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -342,7 +344,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -364,7 +366,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
+                  backgroundImage: `url('${forestCityImage}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
