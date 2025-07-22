@@ -65,8 +65,8 @@ export default function Home() {
             {/* Fitness */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Dumbbell className="text-primary mb-4" size={48} />
@@ -81,8 +81,8 @@ export default function Home() {
             {/* Pools */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Waves className="text-primary mb-4" size={48} />
@@ -97,8 +97,8 @@ export default function Home() {
             {/* Nutrition */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Utensils className="text-primary mb-4" size={48} />
@@ -113,8 +113,8 @@ export default function Home() {
             {/* Morning Ruck */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Sun className="text-secondary mb-4" size={48} />
@@ -129,8 +129,8 @@ export default function Home() {
             {/* Smart Young People */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Users className="text-secondary mb-4" size={48} />
@@ -145,8 +145,8 @@ export default function Home() {
             {/* AI Classes */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Bot className="text-secondary mb-4" size={48} />
@@ -161,8 +161,8 @@ export default function Home() {
             {/* Book Classes */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Book className="text-accent mb-4" size={48} />
@@ -177,8 +177,8 @@ export default function Home() {
             {/* Vibe Coding */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Code className="text-accent mb-4" size={48} />
@@ -193,8 +193,8 @@ export default function Home() {
             {/* Network States */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1555503543-0bcc7e7ba8aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Globe className="text-accent mb-4" size={48} />
@@ -209,8 +209,8 @@ export default function Home() {
             {/* Improv Classes */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <TheaterIcon className="text-primary mb-4" size={48} />
@@ -225,8 +225,8 @@ export default function Home() {
             {/* Country Rock Night */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1563522492-d6a8d7b78e79?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Guitar className="text-primary mb-4" size={48} />
@@ -241,8 +241,8 @@ export default function Home() {
             {/* Better Person */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1564399580075-5dfe63fddcf3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Heart className="text-primary mb-4" size={48} />
@@ -257,8 +257,8 @@ export default function Home() {
             {/* Global Community */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1524749292158-7540c2494485?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Users className="text-secondary mb-4" size={48} />
@@ -273,8 +273,8 @@ export default function Home() {
             {/* Crypto & Web3 */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-30"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{backgroundImage: "url('https://images.unsplash.com/photo-1567337712-0be6b40c9d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
               ></div>
               <CardContent className="p-8 relative z-10 bg-white/90">
                 <Bitcoin className="text-secondary mb-4" size={48} />
