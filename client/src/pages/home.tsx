@@ -111,15 +111,11 @@ export default function Home() {
 
             {/* Nutrition */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
-              <div 
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/forest-city.png')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat'
-                }}
-              ></div>
+              <img 
+                src="/forest-city.png" 
+                alt="Forest City" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-black/20"></div>
               <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Utensils className="text-primary mb-4" size={48} />
