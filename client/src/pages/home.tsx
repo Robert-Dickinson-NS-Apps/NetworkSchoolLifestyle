@@ -67,7 +67,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -89,7 +89,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -111,7 +111,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -133,7 +133,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -155,7 +155,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -177,7 +177,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -199,7 +199,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -221,7 +221,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -243,7 +243,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1555503543-0bcc7e7ba8aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -265,7 +265,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -287,7 +287,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1563522492-d6a8d7b78e79?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -309,7 +309,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1564399580075-5dfe63fddcf3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -331,7 +331,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1524749292158-7540c2494485?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
@@ -353,7 +353,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1567337712-0be6b40c9d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundImage: "url('/attached_assets/2025-07-22_14-18-55_1753165170134.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat'
