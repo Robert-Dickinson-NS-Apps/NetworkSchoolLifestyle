@@ -86,7 +86,7 @@ export default function Home() {
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-purple-600/20 to-black/40"></div>
               <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Dumbbell className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Burn Exercise Tent</h3>
@@ -104,7 +104,7 @@ export default function Home() {
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-green-600/30 via-blue-600/20 to-black/40"></div>
               <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Waves className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Many Pools</h3>
@@ -122,7 +122,7 @@ export default function Home() {
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 via-pink-600/20 to-black/40"></div>
               <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Utensils className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Blueprint Food</h3>
