@@ -46,9 +46,20 @@ export default function Home() {
             Discover the advantages of living at Network School in Forest City, Malaysia - 
             just 15 minutes across a small bridge to Singapore
           </p>
-          <div className="flex items-center justify-center text-xl text-gray-600">
+          <div className="flex items-center justify-center text-xl text-gray-600 mb-8">
             <MapPin className="mr-2 text-primary" size={24} />
             Forest City, Malaysia • 15 minutes to Singapore
+          </div>
+          
+          <div className="flex justify-center">
+            <a 
+              href="https://ns.com/apply" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-primary text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-primary/90 transition-colors shadow-lg hover:shadow-xl"
+            >
+              Apply Now
+            </a>
           </div>
         </div>
       </section>
