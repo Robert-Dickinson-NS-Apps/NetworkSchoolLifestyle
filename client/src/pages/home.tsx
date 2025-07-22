@@ -46,11 +46,11 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <h1 className="text-6xl font-bold text-white mb-8 drop-shadow-lg">
-            Life After 70 in <span className="text-yellow-400">Malaysia</span>
+            Life After 70 at <span className="text-yellow-400">Network School</span>
           </h1>
           <p className="text-2xl text-white mb-12 max-w-4xl mx-auto drop-shadow-md">
             Discover the advantages of living at Network School in Forest City, Malaysia - 
-            just 15 minutes across a small bridge to Singapore
+            just 15 minutes across a short bridge to Singapore
           </p>
           <div className="flex items-center justify-center text-xl text-white mb-8 drop-shadow-md">
             <MapPin className="mr-2 text-yellow-400" size={24} />
