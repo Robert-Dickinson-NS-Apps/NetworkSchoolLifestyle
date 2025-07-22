@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ContactForm } from "@/components/contact-form";
+
 import { 
   GraduationCap, 
   Calendar, 
@@ -21,10 +21,6 @@ import {
 } from "lucide-react";
 
 export default function Home() {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -318,20 +314,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section id="contact" className="py-20 bg-gradient-to-br from-primary to-secondary text-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold mb-6">Get in Touch</h2>
-            <p className="text-2xl">
-              Contact us to learn more about life at Network School Forest City
-            </p>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-            <ContactForm />
-          </div>
-        </div>
-      </section>
+
 
       {/* Footer */}
       <footer className="bg-neutral text-white py-12">
