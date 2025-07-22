@@ -63,12 +63,18 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             {/* Fitness */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Dumbbell className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Burn Exercise Tent</h3>
                 <p className="text-lg text-gray-700">
@@ -79,12 +85,18 @@ export default function Home() {
             </Card>
 
             {/* Pools */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Waves className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Many Pools</h3>
                 <p className="text-lg text-gray-700">
@@ -95,12 +107,18 @@ export default function Home() {
             </Card>
 
             {/* Nutrition */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Utensils className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Blueprint Food</h3>
                 <p className="text-lg text-gray-700">
@@ -111,12 +129,18 @@ export default function Home() {
             </Card>
 
             {/* Morning Ruck */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Sun className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Morning Ruck</h3>
                 <p className="text-lg text-gray-700">
@@ -127,12 +151,18 @@ export default function Home() {
             </Card>
 
             {/* Smart Young People */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Smart Younger People</h3>
                 <p className="text-lg text-gray-700">
@@ -143,12 +173,18 @@ export default function Home() {
             </Card>
 
             {/* AI Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Bot className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">AI Classes</h3>
                 <p className="text-lg text-gray-700">
@@ -159,12 +195,18 @@ export default function Home() {
             </Card>
 
             {/* Book Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Book className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Book Classes</h3>
                 <p className="text-lg text-gray-700">
@@ -175,12 +217,18 @@ export default function Home() {
             </Card>
 
             {/* Vibe Coding */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Code className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Vibe Coding</h3>
                 <p className="text-lg text-gray-700">
@@ -191,12 +239,18 @@ export default function Home() {
             </Card>
 
             {/* Network States */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1555503543-0bcc7e7ba8aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1555503543-0bcc7e7ba8aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Globe className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Build Network States</h3>
                 <p className="text-lg text-gray-700">
@@ -207,12 +261,18 @@ export default function Home() {
             </Card>
 
             {/* Improv Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <TheaterIcon className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Improv Classes</h3>
                 <p className="text-lg text-gray-700">
@@ -223,12 +283,18 @@ export default function Home() {
             </Card>
 
             {/* Country Rock Night */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1563522492-d6a8d7b78e79?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1563522492-d6a8d7b78e79?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Guitar className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Country Rock Night</h3>
                 <p className="text-lg text-gray-700">
@@ -239,12 +305,18 @@ export default function Home() {
             </Card>
 
             {/* Better Person */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1564399580075-5dfe63fddcf3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1564399580075-5dfe63fddcf3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Heart className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">How to Be a Better Person</h3>
                 <p className="text-lg text-gray-700">
@@ -255,12 +327,18 @@ export default function Home() {
             </Card>
 
             {/* Global Community */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1524749292158-7540c2494485?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1524749292158-7540c2494485?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">People from All Over the World</h3>
                 <p className="text-lg text-gray-700">
@@ -271,12 +349,18 @@ export default function Home() {
             </Card>
 
             {/* Crypto & Web3 */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
               <div 
-                className="absolute inset-0 bg-cover bg-center opacity-40"
-                style={{backgroundImage: "url('https://images.unsplash.com/photo-1567337712-0be6b40c9d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')"}}
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url('https://images.unsplash.com/photo-1567337712-0be6b40c9d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               ></div>
-              <CardContent className="p-8 relative z-10 bg-white/90">
+              <div className="absolute inset-0 bg-black/20"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Bitcoin className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">Learn Crypto & Web3</h3>
                 <p className="text-lg text-gray-700">
