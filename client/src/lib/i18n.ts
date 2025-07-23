@@ -125,7 +125,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Life After 70 at Network School",
     heroSubtitle: "Discover the advantages of living at Network School in Forest City, Malaysia - just 15 minutes across a short bridge to Singapore",
     applyNow: "Apply Now",
-    advantagesTitle: "14 Advantages of Life After 70",
+    advantagesTitle: "14 Features I like at Network School",
     
     fitness: {
       title: "State-of-the-Art Fitness Facilities",
@@ -236,7 +236,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "La Vida Después de los 70 en Network School",
     heroSubtitle: "Descubre las ventajas de vivir en Network School en Forest City, Malasia - a solo 15 minutos cruzando un puente corto hacia Singapur",
     applyNow: "Aplicar Ahora",
-    advantagesTitle: "14 Ventajas de la Vida Después de los 70",
+    advantagesTitle: "14 Características que me gustan de Network School",
     
     fitness: {
       title: "Instalaciones de Fitness de Última Generación",
@@ -347,7 +347,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Network School 70岁后的生活",
     heroSubtitle: "探索在马来西亚森林城市Network School生活的优势 - 仅需15分钟跨过短桥即可到达新加坡",
     applyNow: "立即申请",
-    advantagesTitle: "70岁后生活的14个优势",
+    advantagesTitle: "我喜欢Network School的14个特色",
     
     fitness: {
       title: "最先进的健身设施",
@@ -458,7 +458,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "La Vie Après 70 Ans à Network School",
     heroSubtitle: "Découvrez les avantages de vivre à Network School à Forest City, Malaisie - à seulement 15 minutes en traversant un court pont vers Singapour",
     applyNow: "Postuler Maintenant",
-    advantagesTitle: "14 Avantages de la Vie Après 70 Ans",
+    advantagesTitle: "14 Caractéristiques que j'aime à Network School",
     
     fitness: {
       title: "Installations de Fitness de Pointe",
@@ -569,7 +569,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Kehidupan Selepas 70 di Network School",
     heroSubtitle: "Temui kelebihan tinggal di Network School di Forest City, Malaysia - hanya 15 minit melalui jambatan pendek ke Singapura",
     applyNow: "Mohon Sekarang",
-    advantagesTitle: "14 Kelebihan Kehidupan Selepas 70",
+    advantagesTitle: "14 Ciri yang saya suka di Network School",
     
     fitness: {
       title: "Kemudahan Kecergasan Canggih",
@@ -680,7 +680,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "ชีวิตหลังวัย 70 ที่ Network School",
     heroSubtitle: "ค้นพบข้อดีของการอยู่ที่ Network School ใน Forest City มาเลเซีย - เพียง 15 นาทีผ่านสะพานสั้นๆ ไปสิงคโปร์",
     applyNow: "สมัครเลย",
-    advantagesTitle: "14 ข้อดีของชีวิตหลังวัย 70",
+    advantagesTitle: "14 คุณสมบัติที่ฉันชอบที่ Network School",
     
     fitness: {
       title: "สิ่งอำนวยความสะดวกด้านฟิตเนสที่ทันสมัย",
@@ -791,7 +791,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "70 வயதிற்குப் பிறகு Network School இல் வாழ்க்கை",
     heroSubtitle: "மலேசியாவின் Forest City இல் Network School இல் வாழ்வதன் பலன்களைக் கண்டறியுங்கள் - சிங்கப்பூருக்கு ஒரு குறுகிய பாலம் வழியாக வெறும் 15 நிமிடங்கள்",
     applyNow: "இப்போதே விண்ணப்பிக்கவும்",
-    advantagesTitle: "70 வயதிற்குப் பிறகு வாழ்க்கையின் 14 நன்மைகள்",
+    advantagesTitle: "Network School இல் நான் விரும்பும் 14 அம்சங்கள்",
     
     fitness: {
       title: "அதிநவீன உடற்பயிற்சி வசதிகள்",
@@ -895,6 +895,228 @@ export const translations: Record<string, Translation> = {
     inquirySent: "நன்றி! உங்கள் விசாரணை வெற்றிகரமாக அனுப்பப்பட்டது.",
     subscriptionSuccess: "எங்கள் செய்திமடலுக்கு குழுசேர்ந்ததற்கு நன்றி!",
     errorMessage: "ஏதோ தவறு ஏற்பட்டது. மீண்டும் முயற்சிக்கவும்."
+  },
+
+  tl: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Buhay Pagkatapos ng 70 sa Network School",
+    heroSubtitle: "Tuklasin ang mga bentahe ng pamumuhay sa Network School sa Forest City, Malaysia - 15 minuto lamang sa isang maikling tulay patungo sa Singapore",
+    applyNow: "Mag-apply Ngayon",
+    advantagesTitle: "14 na Katangian na Gusto Ko sa Network School",
+    
+    fitness: {
+      title: "Makabagong Fitness Facilities",
+      description: "Modernong gym equipment na dinisenyo para sa mga nakatatanda. Personal trainers na dalubhasa sa age-appropriate fitness programs."
+    },
+    pools: {
+      title: "Magagandang Swimming Pools",
+      description: "Maraming pool kasama ang heated options. Perpekto para sa low-impact exercise at relaxation sa tropical weather."
+    },
+    nutrition: {
+      title: "Blueprint Food Nutrition",
+      description: "Scientifically optimized na pagkain na dinisenyo para sa longevity. Fresh, healthy ingredients na inihanda ng expert chefs."
+    },
+    morningRuck: {
+      title: "Morning Ruck Walks",
+      description: "Simulan ang inyong araw sa energizing group walks. Bumuo ng strength at community habang ginagalugad ang Forest City."
+    },
+    smartYoungPeople: {
+      title: "Matalinong Mga Kabataan",
+      description: "Makakuha ng fresh perspectives sa buhay mula sa mga brilliant young minds. Matuto sa isa't isa at manatiling mentally sharp."
+    },
+    aiClasses: {
+      title: "AI Classes",
+      description: "Matuto ng artificial intelligence sa practical, madaling maintindihan na paraan. Manatiling updated sa future ng technology."
+    },
+    bookClubs: {
+      title: "Book Classes",
+      description: "Pag-usapan ang mga magagandang libro kasama ng ibang lifelong learners. Palawakin ang inyong isip sa literature at ideas."
+    },
+    coding: {
+      title: "Vibe Coding",
+      description: "Matuto ng mga bagong tools tulad ng vibe coding - modern programming na accessible. Lumikha at bumuo sa digital age."
+    },
+    networkStates: {
+      title: "Bumuo ng Network States",
+      description: "Tumulong sa pag-design ng future sa pamamagitan ng pagbuo ng ideas para sa ibang network states. Maging bahagi ng paglikha ng mga community ng bukas."
+    },
+    improv: {
+      title: "Improv Classes",
+      description: "Ipahayag ang sarili nang creative sa improvisational theater. Mag-enjoy habang bumubuo ng confidence at social skills."
+    },
+    countryRock: {
+      title: "Country Rock Night",
+      description: "Mag-enjoy ng live music at entertainment kasama ng inyong community. Sumayaw, kumanta, at makabuo ng mga alaala."
+    },
+    blueprintFood: {
+      title: "Blueprint Food",
+      description: "Optimized nutrition para sa longevity at optimal health. Pagkain na dinisenyo gamit ang latest science."
+    },
+    lifestyle: {
+      title: "Active Lifestyle",
+      description: "Mamuhay nang active at healthy sa fun daily activities. Manatiling energetic at motivated araw-araw."
+    },
+    betterPerson: {
+      title: "Paano Maging Better Person",
+      description: "Mag-focus sa personal growth at development. Matuto ng strategies para sa best life pagkatapos ng 70."
+    },
+    globalCommunity: {
+      title: "Global Community",
+      description: "Makipag-connect sa mga tao mula sa buong mundo. Magbahagi ng culture, language, at experiences sa diverse community."
+    },
+    cryptoWeb3: {
+      title: "Crypto & Web3",
+      description: "Matuto ng cryptocurrencies at blockchain technology. Manatiling updated sa digital financial revolution."
+    },
+    videoCreation: {
+      title: "Video Creation",
+      description: "Matuto ng video creation skills para ibahagi ang inyong mga kwento. Lumikha ng content at makipag-connect sa bagong generation."
+    },
+    
+    perfectLocation: "Perfect na Lokasyon",
+    locationDescription: "Ang Forest City ay strategically located",
+    toSingapore: "sa Singapore",
+    minutes: "minuto",
+    tropical: "Tropical",
+    perfectWeather: "perfect weather buong taon",
+    modern: "Modern",
+    forestCity: "state-of-the-art facilities sa Forest City",
+    
+    contactTitle: "Bisitahin ang Aming Campus",
+    contactDescription: "Mag-arrange ng visit para first-hand na ma-experience ang buhay sa Network School Forest City",
+    nameLabel: "Pangalan",
+    emailLabel: "Email",
+    phoneLabel: "Telepono",
+    visitTypeLabel: "Uri ng Visit",
+    visitTypePlaceholder: "Piliin ang uri ng visit",
+    visitOptions: {
+      campus: "Campus Visit",
+      virtual: "Virtual Visit",
+      info: "Information Session"
+    },
+    messageLabel: "Mensahe",
+    submitInquiry: "I-submit ang Inquiry",
+    
+    newsletterTitle: "Manatiling Connected",
+    newsletterDescription: "Mag-subscribe sa aming newsletter para sa latest updates",
+    subscribeNewsletter: "Mag-subscribe sa Newsletter",
+    
+    footerDescription: "Forest City, Malaysia • Ang susunod ninyong chapter ay nagsisimula dito",
+    
+    inquirySent: "Salamat! Matagumpay na naipadala ang inyong inquiry.",
+    subscriptionSuccess: "Salamat sa pag-subscribe sa aming newsletter!",
+    errorMessage: "May nangyaring mali. Subukan ulit."
+  },
+
+  vi: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Cuộc sống sau 70 tuổi tại Network School",
+    heroSubtitle: "Khám phá những lợi ích của việc sống tại Network School ở Forest City, Malaysia - chỉ 15 phút qua một cây cầu ngắn đến Singapore",
+    applyNow: "Đăng ký ngay",
+    advantagesTitle: "14 tính năng tôi thích ở Network School",
+    
+    fitness: {
+      title: "Cơ sở thể dục hiện đại",
+      description: "Thiết bị gym hiện đại được thiết kế cho người cao tuổi. Huấn luyện viên cá nhân chuyên về các chương trình thể dục phù hợp với tuổi tác."
+    },
+    pools: {
+      title: "Hồ bơi đẹp",
+      description: "Nhiều hồ bơi bao gồm các tùy chọn sưởi ấm. Hoàn hảo cho tập thể dục ít tác động và thư giãn trong thời tiết nhiệt đới."
+    },
+    nutrition: {
+      title: "Dinh dưỡng Blueprint Food",
+      description: "Bữa ăn được tối ưu hóa khoa học được thiết kế cho tuổi thọ. Nguyên liệu tươi, lành mạnh được chuẩn bị bởi các đầu bếp chuyên gia."
+    },
+    morningRuck: {
+      title: "Đi bộ buổi sáng",
+      description: "Bắt đầu ngày mới với những chuyến đi bộ nhóm tràn đầy năng lượng. Xây dựng sức mạnh và cộng đồng trong khi khám phá Forest City."
+    },
+    smartYoungPeople: {
+      title: "Những người trẻ thông minh",
+      description: "Nhận được những góc nhìn mới mẻ về cuộc sống từ những tâm hồn trẻ tài năng. Học hỏi lẫn nhau và giữ tinh thần minh mẫn."
+    },
+    aiClasses: {
+      title: "Lớp học AI",
+      description: "Học trí tuệ nhân tạo theo cách thực tế, dễ hiểu. Cập nhật với tương lai của công nghệ."
+    },
+    bookClubs: {
+      title: "Lớp học sách",
+      description: "Thảo luận về những cuốn sách hay với những người học suốt đời khác. Mở rộng tâm trí thông qua văn học và ý tưởng."
+    },
+    coding: {
+      title: "Lập trình Vibe",
+      description: "Học các công cụ mới như lập trình vibe - lập trình hiện đại được làm cho dễ tiếp cận. Tạo ra và xây dựng trong kỷ nguyên số."
+    },
+    networkStates: {
+      title: "Xây dựng các Bang Mạng",
+      description: "Giúp thiết kế tương lai bằng cách xây dựng ý tưởng cho các bang mạng khác. Trở thành một phần của việc tạo ra các cộng đồng ngày mai."
+    },
+    improv: {
+      title: "Lớp học ứng biến",
+      description: "Thể hiện bản thân một cách sáng tạo thông qua sân khấu ứng biến. Vui vẻ trong khi xây dựng sự tự tin và kỹ năng xã hội."
+    },
+    countryRock: {
+      title: "Đêm Country Rock",
+      description: "Thưởng thức nhạc sống và giải trí với cộng đồng của bạn. Nhảy múa, hát theo và tạo ra những kỷ niệm cùng nhau."
+    },
+    blueprintFood: {
+      title: "Blueprint Food",
+      description: "Dinh dưỡng được tối ưu hóa cho tuổi thọ và sức khỏe tối ưu. Thực phẩm được thiết kế với khoa học mới nhất."
+    },
+    lifestyle: {
+      title: "Lối sống năng động",
+      description: "Sống năng động và khỏe mạnh với các hoạt động hàng ngày thú vị. Giữ năng lượng và động lực mỗi ngày."
+    },
+    betterPerson: {
+      title: "Cách trở thành người tốt hơn",
+      description: "Tập trung vào sự phát triển và cải thiện cá nhân. Học các chiến lược để sống cuộc sống tốt nhất sau tuổi 70."
+    },
+    globalCommunity: {
+      title: "Cộng đồng toàn cầu",
+      description: "Kết nối với mọi người từ khắp nơi trên thế giới. Chia sẻ văn hóa, ngôn ngữ và kinh nghiệm trong một cộng đồng đa dạng."
+    },
+    cryptoWeb3: {
+      title: "Crypto & Web3",
+      description: "Tìm hiểu về tiền điện tử và công nghệ blockchain. Cập nhật với cuộc cách mạng tài chính số."
+    },
+    videoCreation: {
+      title: "Tạo video",
+      description: "Học kỹ năng tạo video để chia sẻ câu chuyện của bạn. Tạo nội dung và kết nối với thế hệ mới."
+    },
+    
+    perfectLocation: "Vị trí hoàn hảo",
+    locationDescription: "Forest City nằm ở vị trí chiến lược",
+    toSingapore: "đến Singapore",
+    minutes: "phút",
+    tropical: "Nhiệt đới",
+    perfectWeather: "thời tiết hoàn hảo quanh năm",
+    modern: "Hiện đại",
+    forestCity: "cơ sở vật chất tiên tiến tại Forest City",
+    
+    contactTitle: "Thăm quan campus của chúng tôi",
+    contactDescription: "Sắp xếp một chuyến thăm để trải nghiệm trực tiếp cuộc sống tại Network School Forest City",
+    nameLabel: "Tên",
+    emailLabel: "Email",
+    phoneLabel: "Điện thoại",
+    visitTypeLabel: "Loại thăm quan",
+    visitTypePlaceholder: "Chọn loại thăm quan",
+    visitOptions: {
+      campus: "Thăm quan campus",
+      virtual: "Thăm quan ảo",
+      info: "Phiên thông tin"
+    },
+    messageLabel: "Tin nhắn",
+    submitInquiry: "Gửi yêu cầu",
+    
+    newsletterTitle: "Giữ liên lạc",
+    newsletterDescription: "Đăng ký nhận bản tin của chúng tôi để cập nhật thông tin mới nhất",
+    subscribeNewsletter: "Đăng ký nhận bản tin",
+    
+    footerDescription: "Forest City, Malaysia • Chương tiếp theo của bạn bắt đầu từ đây",
+    
+    inquirySent: "Cảm ơn! Yêu cầu của bạn đã được gửi thành công.",
+    subscriptionSuccess: "Cảm ơn bạn đã đăng ký nhận bản tin của chúng tôi!",
+    errorMessage: "Có lỗi xảy ra. Vui lòng thử lại."
   }
 };
 
