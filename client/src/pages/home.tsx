@@ -187,9 +187,17 @@ export default function Home() {
               <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.smartYoungPeople.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 mb-4">
                   {t.smartYoungPeople.description}
                 </p>
+                <Button 
+                  size="sm" 
+                  className="bg-secondary hover:bg-secondary/90 text-white"
+                  onClick={() => window.open('https://balajis.com/p/network-school-fellowship', '_blank')}
+                >
+                  <ExternalLink className="mr-2" size={16} />
+                  Learn About Fellowship
+                </Button>
               </CardContent>
             </Card>
 
