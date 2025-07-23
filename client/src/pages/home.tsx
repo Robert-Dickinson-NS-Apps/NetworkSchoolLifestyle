@@ -17,7 +17,8 @@ import {
   Utensils,
   Sun,
   Globe,
-  Waves
+  Waves,
+  Video
 } from "lucide-react";
 
 export default function Home() {
@@ -371,6 +372,24 @@ export default function Home() {
                 <p className="text-lg text-gray-700">
                   Understand the future of money and the internet. 
                   Get expert guidance on digital currencies and blockchain technology.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Video Creation */}
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+              <img 
+                src="/forest-city.png" 
+                alt="Forest City" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-red-600/30 via-pink-600/20 to-black/40"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+                <Video className="text-red-600 mb-4" size={48} />
+                <h3 className="text-2xl font-bold mb-4">Create Better Vertical Videos</h3>
+                <p className="text-lg text-gray-700">
+                  Learn to make engaging and shorter vertical videos. 
+                  Master modern video creation techniques for social media and personal projects.
                 </p>
               </CardContent>
             </Card>
