@@ -387,9 +387,17 @@ export default function Home() {
               <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.globalCommunity.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 mb-4">
                   {t.globalCommunity.description}
                 </p>
+                <Button 
+                  size="sm" 
+                  className="bg-secondary hover:bg-secondary/90 text-white"
+                  onClick={() => window.open('https://nsvibecodingasiarainfall.com/', '_blank')}
+                >
+                  <ExternalLink className="mr-2" size={16} />
+                  Explore Global Community
+                </Button>
               </CardContent>
             </Card>
 
