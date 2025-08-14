@@ -3,6 +3,8 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactInquirySchema, insertNewsletterSubscriptionSchema } from "@shared/schema";
 import { z } from "zod";
+import { readFileSync, existsSync } from "fs";
+import { join } from "path";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
@@ -40,6 +42,34 @@ export async function registerRoutes(app: Express): Promise<Server> {
       } else {
         res.status(500).json({ error: "Failed to subscribe to newsletter" });
       }
+    }
+  });
+
+  // Source code viewer endpoint
+  app.get("/api/source/*", (req, res) => {
+    try {
+      const filePath = req.url.replace('/api/source/', '');
+      const fullPath = join(process.cwd(), filePath);
+      
+      // Security check - ensure file is within project directory
+      if (!fullPath.startsWith(process.cwd())) {
+        return res.status(403).json({ error: "Access denied" });
+      }
+      
+      // Check if file exists
+      if (!existsSync(fullPath)) {
+        return res.status(404).json({ error: "File not found" });
+      }
+      
+      // Read and return file content
+      const content = readFileSync(fullPath, 'utf-8');
+      
+      res.setHeader('Content-Type', 'text/plain');
+      res.send(content);
+      
+    } catch (error) {
+      console.error("Error reading source file:", error);
+      res.status(500).json({ error: "Failed to read file" });
     }
   });
 

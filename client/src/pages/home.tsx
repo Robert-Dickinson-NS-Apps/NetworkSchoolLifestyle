@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { LanguageSelector } from "@/components/LanguageSelector";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Link } from "wouter";
 
 import { 
   GraduationCap, 
@@ -21,23 +23,33 @@ import {
   Globe,
   Waves,
   Video,
-  ExternalLink
+  ExternalLink,
+  FileText
 } from "lucide-react";
 
 export default function Home() {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
+      <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
         <nav className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <GraduationCap className="text-primary mr-3" size={40} />
-              <span className="text-3xl font-bold text-neutral">{t.siteTitle}</span>
+              <span className="text-3xl font-bold text-neutral dark:text-white">{t.siteTitle}</span>
             </div>
-            <LanguageSelector />
+            <div className="flex items-center space-x-4">
+              <Link href="/docs">
+                <Button variant="outline" size="sm" className="flex items-center space-x-2">
+                  <FileText className="h-4 w-4" />
+                  <span>Documentation</span>
+                </Button>
+              </Link>
+              <ThemeToggle />
+              <LanguageSelector />
+            </div>
           </div>
         </nav>
       </header>
@@ -84,9 +96,9 @@ export default function Home() {
       </section>
 
       {/* Advantages Grid */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-5xl font-bold text-center text-neutral mb-16">
+          <h2 className="text-5xl font-bold text-center text-neutral dark:text-white mb-16">
             {t.advantagesTitle}
           </h2>
           
@@ -100,10 +112,10 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-purple-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Dumbbell className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.fitness.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.fitness.description}
                 </p>
               </CardContent>
@@ -117,10 +129,10 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-green-600/30 via-blue-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Waves className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.pools.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.pools.description}
                 </p>
               </CardContent>
@@ -134,10 +146,10 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 via-pink-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Utensils className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.nutrition.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.nutrition.description}
                 </p>
                 <Button 
@@ -163,10 +175,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Sun className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.morningRuck.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.morningRuck.description}
                 </p>
                 <Button 
@@ -192,10 +204,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.smartYoungPeople.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.smartYoungPeople.description}
                 </p>
                 <Button 
@@ -221,10 +233,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Bot className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.aiClasses.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.aiClasses.description}
                 </p>
               </CardContent>
@@ -242,10 +254,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Book className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.bookClubs.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.bookClubs.description}
                 </p>
                 <Button 
@@ -271,10 +283,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Code className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.coding.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.coding.description}
                 </p>
                 <Button 
@@ -300,10 +312,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Globe className="text-accent mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.networkStates.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.networkStates.description}
                 </p>
                 <Button 
@@ -329,10 +341,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <TheaterIcon className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.improv.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.improv.description}
                 </p>
               </CardContent>
@@ -350,10 +362,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Guitar className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.countryRock.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.countryRock.description}
                 </p>
               </CardContent>
@@ -371,10 +383,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Heart className="text-primary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.betterPerson.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.betterPerson.description}
                 </p>
               </CardContent>
@@ -392,10 +404,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Users className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.globalCommunity.title}</h3>
-                <p className="text-lg text-gray-700 mb-4">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.globalCommunity.description}
                 </p>
                 <Button 
@@ -421,10 +433,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Bitcoin className="text-secondary mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.cryptoWeb3.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.cryptoWeb3.description}
                 </p>
               </CardContent>
@@ -438,10 +450,10 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-red-600/30 via-pink-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 backdrop-blur-sm">
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Video className="text-red-600 mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.videoCreation.title}</h3>
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.videoCreation.description}
                 </p>
               </CardContent>
