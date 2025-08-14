@@ -49,18 +49,21 @@ export default function Home() {
           alt="Forest City Malaysia" 
           className="absolute inset-0 w-full h-full object-cover animate-pulse"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/70 to-black/80"></div>
         <div className="absolute inset-0 shimmer-bg opacity-20"></div>
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-          <h1 className="text-6xl font-bold text-white mb-8 text-glow animate-fade-in-up">
+          <h1 className="text-7xl md:text-8xl lg:text-9xl font-black text-white mb-8 animate-fade-in-up leading-none" style={{
+            textShadow: '0 0 20px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.6), 0 4px 8px rgba(0, 0, 0, 0.9)',
+            WebkitTextStroke: '2px rgba(255, 255, 255, 0.1)'
+          }}>
             {t.heroTitle.includes('Network School') ? (
               <>
-                {t.heroTitle.split('Network School')[0]}
-                <span className="text-gradient animate-pulse">Network School</span>
-                {t.heroTitle.split('Network School')[1]}
+                <span className="block text-yellow-300 drop-shadow-2xl">Life After 70</span>
+                <span className="block text-white drop-shadow-2xl">at</span>
+                <span className="block bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent animate-pulse drop-shadow-2xl">Network School</span>
               </>
             ) : (
-              t.heroTitle
+              <span className="drop-shadow-2xl">{t.heroTitle}</span>
             )}
           </h1>
           <p className="text-2xl text-white mb-12 max-w-4xl mx-auto text-glow animate-fade-in-up" style={{animationDelay: '0.2s'}}>
