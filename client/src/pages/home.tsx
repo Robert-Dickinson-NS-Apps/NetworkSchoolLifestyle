@@ -47,10 +47,9 @@ export default function Home() {
         <img 
           src="/forest-city.png" 
           alt="Forest City Malaysia" 
-          className="absolute inset-0 w-full h-full object-cover animate-pulse"
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
-        <div className="absolute inset-0 shimmer-bg opacity-20"></div>
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <h1 className="text-6xl font-bold text-white mb-8 text-glow animate-fade-in-up">
             {t.heroTitle.includes('Network School') ? (
@@ -455,7 +454,6 @@ export default function Home() {
 
       {/* Location Highlight */}
       <section className="py-20 gradient-rainbow text-white relative overflow-hidden">
-        <div className="absolute inset-0 shimmer-bg opacity-30"></div>
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <h2 className="text-4xl font-bold mb-8 text-glow animate-fade-in-up">{t.perfectLocation}</h2>
           <p className="text-2xl mb-8 text-glow animate-fade-in-up" style={{animationDelay: '0.2s'}}>
@@ -482,7 +480,6 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-neutral text-white py-12 relative overflow-hidden">
-        <div className="absolute inset-0 shimmer-bg opacity-10"></div>
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <div className="flex items-center justify-center mb-4 animate-fade-in-up">
             <GraduationCap className="mr-3 animate-float" size={32} />
