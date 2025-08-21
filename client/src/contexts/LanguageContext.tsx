@@ -11,19 +11,13 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
-    // Check localStorage first
+    // Check localStorage first for user preference
     const saved = localStorage.getItem('preferred-language');
     if (saved && saved in translations) {
       return saved as Language;
     }
     
-    // Then check browser language
-    const browserLang = navigator.language.split('-')[0];
-    if (browserLang in translations) {
-      return browserLang as Language;
-    }
-    
-    // Default to English
+    // Always default to English - let user choose their language
     return 'en';
   });
 
