@@ -137,7 +137,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Life After 70 at Network School",
     heroSubtitle: "Discover the advantages of living at Network School in Forest City, Malaysia - just 15 minutes across a short bridge to Singapore",
     applyNow: "Apply Now",
-    advantagesTitle: "17 Features I like at Network School",
+    advantagesTitle: "20 Features I like at Network School",
     
     fitness: {
       title: "State-of-the-Art Fitness Facilities",
@@ -260,7 +260,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "La Vida Después de los 70 en Network School",
     heroSubtitle: "Descubre las ventajas de vivir en Network School en Forest City, Malasia - a solo 15 minutos cruzando un puente corto hacia Singapur",
     applyNow: "Aplicar Ahora",
-    advantagesTitle: "17 Características que me gustan de Network School",
+    advantagesTitle: "20 Características que me gustan de Network School",
     
     fitness: {
       title: "Instalaciones de Fitness de Última Generación",
@@ -383,7 +383,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Network School 70岁后的生活",
     heroSubtitle: "探索在马来西亚森林城市Network School生活的优势 - 仅需15分钟跨过短桥即可到达新加坡",
     applyNow: "立即申请",
-    advantagesTitle: "我喜欢Network School的17个特色",
+    advantagesTitle: "我喜欢Network School的20个特色",
     
     fitness: {
       title: "最先进的健身设施",
@@ -506,7 +506,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "La Vie Après 70 Ans à Network School",
     heroSubtitle: "Découvrez les avantages de vivre à Network School à Forest City, Malaisie - à seulement 15 minutes en traversant un court pont vers Singapour",
     applyNow: "Postuler Maintenant",
-    advantagesTitle: "17 Caractéristiques que j'aime à Network School",
+    advantagesTitle: "20 Caractéristiques que j.aime à Network School",
     
     fitness: {
       title: "Installations de Fitness de Pointe",
@@ -1109,7 +1109,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Cuộc sống sau 70 tuổi tại Network School",
     heroSubtitle: "Khám phá những lợi ích của việc sống tại Network School ở Forest City, Malaysia - chỉ 15 phút qua một cây cầu ngắn đến Singapore",
     applyNow: "Đăng ký ngay",
-    advantagesTitle: "17 tính năng tôi thích ở Network School",
+    advantagesTitle: "20 tính năng tôi thích ở Network School",
     
     fitness: {
       title: "Cơ sở thể dục hiện đại",
@@ -1355,7 +1355,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "الحياة بعد سن 70 في Network School",
     heroSubtitle: "اكتشف مزايا العيش في Network School في Forest City، ماليزيا - 15 دقيقة فقط عبر جسر قصير إلى سنغافورة",
     applyNow: "قدم الآن",
-    advantagesTitle: "17 ميزة أحبها في Network School",
+    advantagesTitle: "20 ميزة أحبها في Network School",
     
     fitness: {
       title: "مرافق اللياقة البدنية المتطورة",
@@ -1478,7 +1478,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Network School में 70 के बाद जीवन",
     heroSubtitle: "मलेशिया के Forest City में Network School में रहने के फायदे खोजें - सिंगापुर के लिए एक छोटे पुल के माध्यम से केवल 15 मिनट",
     applyNow: "अभी आवेदन करें",
-    advantagesTitle: "Network School में मुझे पसंद आने वाली 17 विशेषताएं",
+    advantagesTitle: "Network School में मुझे पसंद आने वाली 20 विशेषताएं",
     
     fitness: {
       title: "अत्याधुनिक फिटनेस सुविधाएं",
@@ -1724,7 +1724,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Vida Após os 70 na Network School",
     heroSubtitle: "Descubra as vantagens de viver na Network School em Forest City, Malásia - apenas 15 minutos através de uma ponte curta para Singapura",
     applyNow: "Candidatar Agora",
-    advantagesTitle: "17 Características que Gosto na Network School",
+    advantagesTitle: "20 Características que Gosto na Network School",
     
     fitness: {
       title: "Instalações de Fitness de Última Geração",
@@ -1847,7 +1847,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Kehidupan Setelah 70 di Network School",
     heroSubtitle: "Temukan keuntungan tinggal di Network School di Forest City, Malaysia - hanya 15 menit melalui jembatan pendek ke Singapura",
     applyNow: "Daftar Sekarang",
-    advantagesTitle: "17 Fitur yang Saya Sukai di Network School",
+    advantagesTitle: "20 Fitur yang Saya Sukai di Network School",
     
     fitness: {
       title: "Fasilitas Kebugaran Canggih",
@@ -1970,7 +1970,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Network School میں 70 کے بعد زندگی",
     heroSubtitle: "Forest City، Malaysia میں Network School میں رہنے کے فوائد دریافت کریں - سنگاپور کے لیے ایک چھوٹے پل کے ذریعے صرف 15 منٹ",
     applyNow: "ابھی درخواست دیں",
-    advantagesTitle: "Network School میں میری پسندیدہ 17 خصوصیات",
+    advantagesTitle: "Network School میں میری پسندیدہ 20 خصوصیات",
     
     fitness: {
       title: "جدید فٹنس سہولات",
@@ -2093,7 +2093,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Leben nach 70 in der Network School",
     heroSubtitle: "Entdecken Sie die Vorteile des Lebens in der Network School in Forest City, Malaysia - nur 15 Minuten über eine kurze Brücke nach Singapur",
     applyNow: "Jetzt bewerben",
-    advantagesTitle: "17 Eigenschaften, die ich an der Network School liebe",
+    advantagesTitle: "20 Eigenschaften, die ich an der Network School liebe",
     
     fitness: {
       title: "Modernste Fitness-Einrichtungen",
