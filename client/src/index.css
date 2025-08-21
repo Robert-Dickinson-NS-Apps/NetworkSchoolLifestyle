@@ -100,4 +100,39 @@
     @apply px-8 py-4 text-xl font-medium rounded-lg transition-colors;
     min-height: 56px;
   }
+
+  /* Flag animations for language selector */
+  @keyframes flag-wave {
+    0%, 100% { transform: rotateZ(0deg) scale(1); }
+    25% { transform: rotateZ(-3deg) scale(1.1); }
+    75% { transform: rotateZ(3deg) scale(1.1); }
+  }
+
+  @keyframes flag-glow {
+    0%, 100% { filter: drop-shadow(0 0 0px transparent); }
+    50% { filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.6)); }
+  }
+
+  @keyframes flag-bounce-in {
+    0% { transform: scale(0.8) rotate(-5deg); opacity: 0; }
+    50% { transform: scale(1.1) rotate(2deg); }
+    100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  }
+
+  .flag-wave {
+    animation: flag-wave 2s ease-in-out infinite;
+  }
+
+  .flag-hover:hover {
+    animation: flag-wave 1.2s ease-in-out infinite;
+    transform-origin: center;
+  }
+
+  .flag-selected {
+    animation: flag-glow 3s ease-in-out infinite;
+  }
+
+  .flag-entrance {
+    animation: flag-bounce-in 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
 }
