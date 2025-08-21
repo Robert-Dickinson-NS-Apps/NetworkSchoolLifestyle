@@ -24,7 +24,10 @@ import {
   Waves,
   Video,
   ExternalLink,
-  FileText
+  FileText,
+  Droplets,
+  BookOpen,
+  Lightbulb
 } from "lucide-react";
 
 export default function Home() {
@@ -455,6 +458,57 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-4">{t.videoCreation.title}</h3>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
                   {t.videoCreation.description}
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Sponge City */}
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+              <img 
+                src="/forest-city.png" 
+                alt="Forest City" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-cyan-600/20 to-black/40"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Droplets className="text-blue-600 mb-4" size={48} />
+                <h3 className="text-2xl font-bold mb-4">{t.spongeCity.title}</h3>
+                <p className="text-lg text-gray-700 dark:text-gray-300">
+                  {t.spongeCity.description}
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Lifelong Learning */}
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+              <img 
+                src="/forest-city.png" 
+                alt="Forest City" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 via-indigo-600/20 to-black/40"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <BookOpen className="text-purple-600 mb-4" size={48} />
+                <h3 className="text-2xl font-bold mb-4">{t.lifelongLearning.title}</h3>
+                <p className="text-lg text-gray-700 dark:text-gray-300">
+                  {t.lifelongLearning.description}
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Idea Factory */}
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+              <img 
+                src="/forest-city.png" 
+                alt="Forest City" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-600/30 via-orange-600/20 to-black/40"></div>
+              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Lightbulb className="text-yellow-600 mb-4" size={48} />
+                <h3 className="text-2xl font-bold mb-4">{t.ideaFactory.title}</h3>
+                <p className="text-lg text-gray-700 dark:text-gray-300">
+                  {t.ideaFactory.description}
                 </p>
               </CardContent>
             </Card>

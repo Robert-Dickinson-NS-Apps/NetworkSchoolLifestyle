@@ -79,6 +79,18 @@ export interface Translation {
     title: string;
     description: string;
   };
+  spongeCity: {
+    title: string;
+    description: string;
+  };
+  lifelongLearning: {
+    title: string;
+    description: string;
+  };
+  ideaFactory: {
+    title: string;
+    description: string;
+  };
   
   // Location section
   perfectLocation: string;
@@ -125,7 +137,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Life After 70 at Network School",
     heroSubtitle: "Discover the advantages of living at Network School in Forest City, Malaysia - just 15 minutes across a short bridge to Singapore",
     applyNow: "Apply Now",
-    advantagesTitle: "14 Features I like at Network School",
+    advantagesTitle: "17 Features I like at Network School",
     
     fitness: {
       title: "State-of-the-Art Fitness Facilities",
@@ -195,6 +207,18 @@ export const translations: Record<string, Translation> = {
       title: "Create Better Vertical Videos",
       description: "Learn to make engaging and shorter vertical videos. Master modern video creation techniques for social media and personal projects."
     },
+    spongeCity: {
+      title: "Live in a Sponge City",
+      description: "Experience innovative urban water management. Forest City's sponge city design naturally absorbs, stores, and purifies rainwater while preventing floods."
+    },
+    lifelongLearning: {
+      title: "Lifelong Learning Opportunities",
+      description: "Continuous education programs designed for seniors. From new technologies to traditional crafts, never stop growing and discovering."
+    },
+    ideaFactory: {
+      title: "Idea Factory Environment",
+      description: "Collaborative innovation spaces where creativity thrives. Transform ideas into reality with fellow innovators and cutting-edge resources."
+    },
     
     perfectLocation: "Perfect Location",
     locationDescription: "Located in Malaysia, just across a short bridge to Singapore",
@@ -236,7 +260,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "La Vida Después de los 70 en Network School",
     heroSubtitle: "Descubre las ventajas de vivir en Network School en Forest City, Malasia - a solo 15 minutos cruzando un puente corto hacia Singapur",
     applyNow: "Aplicar Ahora",
-    advantagesTitle: "14 Características que me gustan de Network School",
+    advantagesTitle: "17 Características que me gustan de Network School",
     
     fitness: {
       title: "Instalaciones de Fitness de Última Generación",
@@ -306,6 +330,18 @@ export const translations: Record<string, Translation> = {
       title: "Crea Mejores Videos Verticales",
       description: "Aprende a hacer videos verticales atractivos y más cortos. Domina técnicas modernas de creación de videos para redes sociales y proyectos personales."
     },
+    spongeCity: {
+      title: "Vive en una Ciudad Esponja",
+      description: "Experimenta la gestión urbana innovadora del agua. El diseño de ciudad esponja de Forest City absorbe, almacena y purifica naturalmente el agua de lluvia mientras previene inundaciones."
+    },
+    lifelongLearning: {
+      title: "Oportunidades de Aprendizaje de por Vida",
+      description: "Programas educativos continuos diseñados para personas mayores. Desde nuevas tecnologías hasta oficios tradicionales, nunca dejes de crecer y descubrir."
+    },
+    ideaFactory: {
+      title: "Entorno de Fábrica de Ideas",
+      description: "Espacios de innovación colaborativa donde florece la creatividad. Transforma ideas en realidad con compañeros innovadores y recursos de vanguardia."
+    },
     
     perfectLocation: "Ubicación Perfecta",
     locationDescription: "Ubicado en Malasia, justo al cruzar un puente corto hacia Singapur",
@@ -347,7 +383,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Network School 70岁后的生活",
     heroSubtitle: "探索在马来西亚森林城市Network School生活的优势 - 仅需15分钟跨过短桥即可到达新加坡",
     applyNow: "立即申请",
-    advantagesTitle: "我喜欢Network School的14个特色",
+    advantagesTitle: "我喜欢Network School的17个特色",
     
     fitness: {
       title: "最先进的健身设施",
@@ -417,6 +453,18 @@ export const translations: Record<string, Translation> = {
       title: "制作更好的竖屏视频",
       description: "学习制作引人入胜且更短的竖屏视频。掌握现代视频制作技术，用于社交媒体和个人项目。"
     },
+    spongeCity: {
+      title: "生活在海绵城市",
+      description: "体验创新的城市水管理。森林城市的海绵城市设计自然吸收、储存和净化雨水，同时防止洪水。"
+    },
+    lifelongLearning: {
+      title: "终身学习机会",
+      description: "为老年人设计的持续教育项目。从新技术到传统工艺，永远不要停止成长和发现。"
+    },
+    ideaFactory: {
+      title: "创意工厂环境",
+      description: "创造力蓬勃发展的协作创新空间。与创新伙伴和尖端资源一起将想法变为现实。"
+    },
     
     perfectLocation: "完美位置",
     locationDescription: "位于马来西亚，仅需跨过一座短桥即可到达新加坡",
@@ -458,7 +506,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "La Vie Après 70 Ans à Network School",
     heroSubtitle: "Découvrez les avantages de vivre à Network School à Forest City, Malaisie - à seulement 15 minutes en traversant un court pont vers Singapour",
     applyNow: "Postuler Maintenant",
-    advantagesTitle: "14 Caractéristiques que j'aime à Network School",
+    advantagesTitle: "17 Caractéristiques que j'aime à Network School",
     
     fitness: {
       title: "Installations de Fitness de Pointe",
@@ -528,6 +576,18 @@ export const translations: Record<string, Translation> = {
       title: "Créer de Meilleures Vidéos Verticales",
       description: "Apprenez à faire des vidéos verticales engageantes et plus courtes. Maîtrisez les techniques modernes de création vidéo pour les réseaux sociaux et projets personnels."
     },
+    spongeCity: {
+      title: "Vivre dans une Ville Éponge",
+      description: "Découvrez une gestion urbaine innovante de l'eau. La conception de ville éponge de Forest City absorbe, stocke et purifie naturellement l'eau de pluie tout en prévenant les inondations."
+    },
+    lifelongLearning: {
+      title: "Opportunités d'Apprentissage à Vie",
+      description: "Programmes éducatifs continus conçus pour les seniors. Des nouvelles technologies aux métiers traditionnels, ne cessez jamais de grandir et de découvrir."
+    },
+    ideaFactory: {
+      title: "Environnement d'Usine à Idées",
+      description: "Espaces d'innovation collaborative où la créativité prospère. Transformez les idées en réalité avec des collègues innovateurs et des ressources de pointe."
+    },
     
     perfectLocation: "Emplacement Parfait",
     locationDescription: "Situé en Malaisie, juste en traversant un court pont vers Singapour",
@@ -569,7 +629,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Kehidupan Selepas 70 di Network School",
     heroSubtitle: "Temui kelebihan tinggal di Network School di Forest City, Malaysia - hanya 15 minit melalui jambatan pendek ke Singapura",
     applyNow: "Mohon Sekarang",
-    advantagesTitle: "14 Ciri yang saya suka di Network School",
+    advantagesTitle: "17 Ciri yang saya suka di Network School",
     
     fitness: {
       title: "Kemudahan Kecergasan Canggih",
@@ -639,6 +699,18 @@ export const translations: Record<string, Translation> = {
       title: "Penciptaan Video",
       description: "Belajar kemahiran penciptaan video untuk berkongsi cerita anda. Hasilkan kandungan dan berhubung dengan generasi baru."
     },
+    spongeCity: {
+      title: "Kehidupan di Bandar Span",
+      description: "Alami pengurusan air bandar yang inovatif. Reka bentuk bandar span Forest City menyerap, menyimpan dan membersihkan air hujan secara semula jadi sambil mencegah banjir."
+    },
+    lifelongLearning: {
+      title: "Peluang Pembelajaran Sepanjang Hayat",
+      description: "Program pendidikan berterusan yang direka untuk warga emas. Dari teknologi baharu hingga kemahiran tradisional, jangan berhenti berkembang dan menemui."
+    },
+    ideaFactory: {
+      title: "Persekitaran Kilang Idea",
+      description: "Ruang inovasi kolaboratif di mana kreativiti berkembang. Ubah idea menjadi realiti dengan rakan inovator dan sumber canggih."
+    },
     
     perfectLocation: "Lokasi Sempurna",
     locationDescription: "Forest City terletak di lokasi strategik",
@@ -680,7 +752,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "ชีวิตหลังวัย 70 ที่ Network School",
     heroSubtitle: "ค้นพบข้อดีของการอยู่ที่ Network School ใน Forest City มาเลเซีย - เพียง 15 นาทีผ่านสะพานสั้นๆ ไปสิงคโปร์",
     applyNow: "สมัครเลย",
-    advantagesTitle: "14 คุณสมบัติที่ฉันชอบที่ Network School",
+    advantagesTitle: "17 คุณสมบัติที่ฉันชอบที่ Network School",
     
     fitness: {
       title: "สิ่งอำนวยความสะดวกด้านฟิตเนสที่ทันสมัย",
@@ -750,6 +822,18 @@ export const translations: Record<string, Translation> = {
       title: "การสร้างวิดีโอ",
       description: "เรียนรู้ทักษะการสร้างวิดีโอเพื่อแบ่งปันเรื่องราวของคุณ สร้างเนื้อหาและเชื่อมต่อกับคนรุ่นใหม่"
     },
+    spongeCity: {
+      title: "ชีวิตในเมืองฟองน้ำ",
+      description: "สัมผัสการจัดการน้ำเมืองที่เป็นนวัตกรรม การออกแบบเมืองฟองน้ำของ Forest City ดูดซับ เก็บ และทำความสะอาดน้ำฝนตามธรรมชาติในขณะที่ป้องกันน้ำท่วม"
+    },
+    lifelongLearning: {
+      title: "โอกาสการเรียนรู้ตลอดชีวิต",
+      description: "โปรแกรมการศึกษาต่อเนื่องที่ออกแบบสำหรับผู้สูงอายุ ตั้งแต่เทคโนโลยีใหม่ไปจนถึงงานฝีมือแบบดั้งเดิม ไม่เคยหยุดเติบโตและค้นพบ"
+    },
+    ideaFactory: {
+      title: "สภาพแวดล้อมโรงงานไอเดีย",
+      description: "พื้นที่นวัตกรรมร่วมกันที่ความคิดสร้างสรรค์เติบโต เปลี่ยนไอเดียให้เป็นจริงกับเพื่อนนักสร้างสรรค์และทรัพยากรขั้นสูง"
+    },
     
     perfectLocation: "ที่ตั้งที่สมบูรณ์แบบ",
     locationDescription: "Forest City ตั้งอยู่ในทำเลที่ยุทธศาสตร์",
@@ -791,7 +875,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "70 வயதிற்குப் பிறகு Network School இல் வாழ்க்கை",
     heroSubtitle: "மலேசியாவின் Forest City இல் Network School இல் வாழ்வதன் பலன்களைக் கண்டறியுங்கள் - சிங்கப்பூருக்கு ஒரு குறுகிய பாலம் வழியாக வெறும் 15 நிமிடங்கள்",
     applyNow: "இப்போதே விண்ணப்பிக்கவும்",
-    advantagesTitle: "Network School இல் நான் விரும்பும் 14 அம்சங்கள்",
+    advantagesTitle: "Network School இல் நான் விரும்பும் 17 அம்சங்கள்",
     
     fitness: {
       title: "அதிநவீன உடற்பயிற்சி வசதிகள்",
@@ -861,6 +945,18 @@ export const translations: Record<string, Translation> = {
       title: "வீடியோ உருவாக்கம்",
       description: "உங்கள் கதைகளைப் பகிர்ந்து கொள்ள வீடியோ உருவாக்க திறன்களைக் கற்றுக்கொள்ளுங்கள். உள்ளடக்கத்தை உருவாக்கி புதிய தலைமுறையுடன் இணைக்கவும்."
     },
+    spongeCity: {
+      title: "ஸ்பாஞ்ச் நகர வாழ்க்கை",
+      description: "புதுமையான நகர நீர் மேலாண்மையை அனுபவிக்கவும். Forest City இன் ஸ்பாஞ்ச் நகர வடிவமைப்பு மழை நீரை இயற்கையாக உறிஞ்சி, சேமித்து, சுத்தப்படுத்தும் அதே நேரத்தில் வெள்ளத்தைத் தடுக்கிறது."
+    },
+    lifelongLearning: {
+      title: "வாழ்நாள் முழுவதும் கற்றல் வாய்ப்புகள்",
+      description: "முதியவர்களுக்காக வடிவமைக்கப்பட்ட தொடர் கல்வி திட்டங்கள். புதிய தொழில்நுட்பங்கள் முதல் பாரம்பரிய கைவினைகள் வரை, வளர்ச்சியையும் கண்டுபிடிப்பையும் நிறுத்தாதீர்கள்."
+    },
+    ideaFactory: {
+      title: "ஐடியா ஃபேக்டரி சூழல்",
+      description: "ஒத்துழைப்பு புதுமை இடங்கள் அங்கு படைப்பாற்றல் செழிக்கிறது. புதுமையான சக பணியாளர்கள் மற்றும் அதிநவீன வளங்களுடன் ஐடியாக்களை நிஜமாக்குங்கள்."
+    },
     
     perfectLocation: "சரியான இடம்",
     locationDescription: "Forest City மூலோபாய இடத்தில் அமைந்துள்ளது",
@@ -902,7 +998,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Buhay Pagkatapos ng 70 sa Network School",
     heroSubtitle: "Tuklasin ang mga bentahe ng pamumuhay sa Network School sa Forest City, Malaysia - 15 minuto lamang sa isang maikling tulay patungo sa Singapore",
     applyNow: "Mag-apply Ngayon",
-    advantagesTitle: "14 na Katangian na Gusto Ko sa Network School",
+    advantagesTitle: "17 na Katangian na Gusto Ko sa Network School",
     
     fitness: {
       title: "Makabagong Fitness Facilities",
@@ -1013,7 +1109,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Cuộc sống sau 70 tuổi tại Network School",
     heroSubtitle: "Khám phá những lợi ích của việc sống tại Network School ở Forest City, Malaysia - chỉ 15 phút qua một cây cầu ngắn đến Singapore",
     applyNow: "Đăng ký ngay",
-    advantagesTitle: "14 tính năng tôi thích ở Network School",
+    advantagesTitle: "17 tính năng tôi thích ở Network School",
     
     fitness: {
       title: "Cơ sở thể dục hiện đại",
@@ -1083,6 +1179,18 @@ export const translations: Record<string, Translation> = {
       title: "Tạo video",
       description: "Học kỹ năng tạo video để chia sẻ câu chuyện của bạn. Tạo nội dung và kết nối với thế hệ mới."
     },
+    spongeCity: {
+      title: "Sống trong thành phố bọt biển",
+      description: "Trải nghiệm quản lý nước đô thị sáng tạo. Thiết kế thành phố bọt biển Forest City tự nhiên hấp thụ, lưu trữ và làm sạch nước mưa trong khi ngăn ngừa lũ lụt."
+    },
+    lifelongLearning: {
+      title: "Cơ hội học tập suốt đời",
+      description: "Các chương trình giáo dục liên tục được thiết kế cho người cao tuổi. Từ công nghệ mới đến thủ công truyền thống, không bao giờ ngừng phát triển và khám phá."
+    },
+    ideaFactory: {
+      title: "Môi trường nhà máy ý tưởng",
+      description: "Không gian đổi mới hợp tác nơi sự sáng tạo phát triển mạnh. Biến ý tưởng thành hiện thực với các đối tác đổi mới và tài nguyên tiên tiến."
+    },
     
     perfectLocation: "Vị trí hoàn hảo",
     locationDescription: "Forest City nằm ở vị trí chiến lược",
@@ -1124,7 +1232,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Жизнь после 70 в Network School",
     heroSubtitle: "Откройте для себя преимущества жизни в Network School в Форест-Сити, Малайзия - всего в 15 минутах езды по короткому мосту до Сингапура",
     applyNow: "Подать заявку",
-    advantagesTitle: "14 особенностей, которые мне нравятся в Network School",
+    advantagesTitle: "17 особенностей, которые мне нравятся в Network School",
     
     fitness: {
       title: "Современные фитнес-центры",
@@ -1193,6 +1301,18 @@ export const translations: Record<string, Translation> = {
     videoCreation: {
       title: "Создание лучших вертикальных видео",
       description: "Изучайте создание привлекательных и более коротких вертикальных видео. Овладевайте современными техниками создания видео для социальных сетей и личных проектов."
+    },
+    spongeCity: {
+      title: "Жизнь в городе-губке",
+      description: "Испытайте инновационное управление городской водой. Дизайн города-губки Форест-Сити естественно поглощает, хранит и очищает дождевую воду, предотвращая наводнения."
+    },
+    lifelongLearning: {
+      title: "Возможности непрерывного обучения",
+      description: "Программы непрерывного образования, разработанные для пожилых людей. От новых технологий до традиционных ремесел - никогда не переставайте расти и открывать."
+    },
+    ideaFactory: {
+      title: "Среда фабрики идей",
+      description: "Пространства совместных инноваций, где процветает креативность. Превращайте идеи в реальность вместе с единомышленниками и передовыми ресурсами."
     },
     
     perfectLocation: "Идеальное расположение",
