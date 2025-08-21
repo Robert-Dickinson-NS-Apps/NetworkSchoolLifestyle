@@ -1594,6 +1594,621 @@ export const translations: Record<string, Translation> = {
     inquirySent: "धन्यवाद! आपकी पूछताछ सफलतापूर्वक भेजी गई।",
     subscriptionSuccess: "हमारे न्यूज़लेटर की सदस्यता के लिए धन्यवाद!",
     errorMessage: "कुछ गलत हुआ। कृपया फिर से कोशिश करें।"
+  },
+
+  bn: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Network School এ ৭০ বছর পরের জীবন",
+    heroSubtitle: "মালয়েশিয়ার Forest City এ Network School এ বসবাসের সুবিধা আবিষ্কার করুন - সিঙ্গাপুরের দিকে একটি ছোট সেতু পারাপারে মাত্র ১৫ মিনিট",
+    applyNow: "এখনই আবেদন করুন",
+    advantagesTitle: "Network School এ আমার পছন্দের ১৭টি বৈশিষ্ট্য",
+    
+    fitness: {
+      title: "অত্যাধুনিক ফিটনেস সুবিধা",
+      description: "বয়স্কদের জন্য ডিজাইন করা আধুনিক জিম সরঞ্জাম। বয়স-উপযুক্ত ফিটনেস প্রোগ্রামে বিশেষজ্ঞ ব্যক্তিগত প্রশিক্ষক।"
+    },
+    pools: {
+      title: "সুন্দর সুইমিং পুল",
+      description: "উষ্ণ বিকল্প সহ একাধিক পুল। গ্রীষ্মমন্ডলীয় আবহাওয়ায় কম প্রভাবশালী ব্যায়াম এবং বিশ্রামের জন্য নিখুঁত।"
+    },
+    nutrition: {
+      title: "Blueprint Food পুষ্টি",
+      description: "দীর্ঘায়ুর জন্য বৈজ্ঞানিকভাবে অপ্টিমাইজ করা খাবার। বিশেষজ্ঞ শেফদের দ্বারা প্রস্তুত তাজা, স্বাস্থ্যকর উপাদান।"
+    },
+    morningRuck: {
+      title: "সকালের হাঁটা",
+      description: "উৎসাহব্যঞ্জক গ্রুপ হাঁটার মাধ্যমে আপনার দিন শুরু করুন। Forest City অন্বেষণের সময় শক্তি এবং সম্প্রদায় গড়ুন।"
+    },
+    smartYoungPeople: {
+      title: "স্মার্ট তরুণরা",
+      description: "উজ্জ্বল তরুণ মনের কাছ থেকে জীবন সম্পর্কে নতুন দৃষ্টিভঙ্গি পান। একে অপরের কাছ থেকে শিখুন এবং মানসিকভাবে তীক্ষ্ণ থাকুন।"
+    },
+    aiClasses: {
+      title: "AI ক্লাস",
+      description: "ব্যবহারিক, সহজ-বোধগম্য উপায়ে কৃত্রিম বুদ্ধিমত্তা শিখুন। প্রযুক্তির ভবিষ্যতের সাথে আপডেট থাকুন।"
+    },
+    bookClubs: {
+      title: "বই ক্লাস",
+      description: "অন্যান্য আজীবন শিক্ষার্থীদের সাথে মহান বই নিয়ে আলোচনা করুন। সাহিত্য এবং ধারণার মাধ্যমে আপনার মন প্রসারিত করুন।"
+    },
+    coding: {
+      title: "Vibe কোডিং",
+      description: "vibe কোডিংয়ের মতো নতুন সরঞ্জাম শিখুন - আধুনিক প্রোগ্রামিং অ্যাক্সেসযোগ্য করা হয়েছে। ডিজিটাল যুগে তৈরি এবং নির্মাণ করুন।"
+    },
+    networkStates: {
+      title: "নেটওয়ার্ক রাজ্য নির্মাণ",
+      description: "অন্যান্য নেটওয়ার্ক রাজ্যের জন্য ধারণা তৈরি করে ভবিষ্যত ডিজাইন করতে সহায়তা করুন। আগামীর সম্প্রদায় তৈরিতে অংশগ্রহণ করুন।"
+    },
+    improv: {
+      title: "ইমপ্রোভ ক্লাস",
+      description: "ইমপ্রোভ থিয়েটারের মাধ্যমে সৃজনশীলতা এবং আত্মবিশ্বাস গড়ুন। যোগাযোগ দক্ষতা বিকাশের সময় মজা করুন।"
+    },
+    countryRock: {
+      title: "কান্ট্রি রক রাত",
+      description: "লাইভ সঙ্গীত এবং নৃত্য উপভোগ করুন। সঙ্গীতের সার্বজনীন ভাষার মাধ্যমে অন্যদের সাথে সংযুক্ত হন।"
+    },
+    blueprintFood: {
+      title: "পুষ্টিকর জীবনধারা",
+      description: "প্রমাণ-ভিত্তিক পুষ্টি প্রোটোকল অনুসরণ করুন। বৈজ্ঞানিকভাবে সমর্থিত খাবার পরিকল্পনার সাথে আপনার স্বাস্থ্য অপ্টিমাইজ করুন।"
+    },
+    lifestyle: {
+      title: "সক্রিয় সামাজিক জীবনধারা",
+      description: "বিভিন্ন কার্যকলাপ এবং ইভেন্টে অংশগ্রহণ করুন। অর্থপূর্ণ বন্ধুত্ব গড়ুন এবং সামাজিকভাবে সক্রিয় থাকুন।"
+    },
+    betterPerson: {
+      title: "কীভাবে আরও ভাল ব্যক্তি হবেন",
+      description: "ব্যক্তিগত বৃদ্ধি এবং উন্নতিতে ফোকাস করুন। ৭০ বছর পরে আপনার সেরা জীবনযাপনের কৌশল শিখুন।"
+    },
+    globalCommunity: {
+      title: "বিশ্বের মানুষ",
+      description: "কয়েক ডজন বিভিন্ন দেশের আকর্ষণীয় মানুষদের সাথে দেখা করুন। বৈচিত্র্যময় বন্ধুত্বের মাধ্যমে আপনার বিশ্বদৃষ্টিভঙ্গি প্রসারিত করুন।"
+    },
+    cryptoWeb3: {
+      title: "Crypto এবং Web3 শিখুন",
+      description: "অর্থ এবং ইন্টারনেটের ভবিষ্যৎ বুঝুন। ডিজিটাল মুদ্রা এবং ব্লকচেইন প্রযুক্তিতে বিশেষজ্ঞ গাইডেন্স পান।"
+    },
+    videoCreation: {
+      title: "আরও ভাল উল্লম্ব ভিডিও তৈরি করুন",
+      description: "আকর্ষণীয় এবং ছোট উল্লম্ব ভিডিও তৈরি করা শিখুন। সামাজিক মিডিয়া এবং ব্যক্তিগত প্রকল্পের জন্য আধুনিক ভিডিও তৈরির কৌশলে দক্ষতা অর্জন করুন।"
+    },
+    spongeCity: {
+      title: "স্পঞ্জ সিটিতে জীবন",
+      description: "উদ্ভাবনী শহুরে জল ব্যবস্থাপনার অভিজ্ঞতা নিন। Forest City এর স্পঞ্জ সিটি ডিজাইন প্রাকৃতিকভাবে বৃষ্টির পানি শোষণ, সঞ্চয় এবং পরিশুদ্ধ করে যখন বন্যা প্রতিরোধ করে।"
+    },
+    lifelongLearning: {
+      title: "আজীবন শেখার সুযোগ",
+      description: "বয়স্কদের জন্য ডিজাইন করা অবিরত শিক্ষা প্রোগ্রাম। নতুন প্রযুক্তি থেকে ঐতিহ্যবাহী কারুশিল্প পর্যন্ত, কখনও বৃদ্ধি এবং আবিষ্কার বন্ধ করবেন না।"
+    },
+    ideaFactory: {
+      title: "আইডিয়া ফ্যাক্টরি পরিবেশ",
+      description: "সহযোগিতামূলক উদ্ভাবন স্থান যেখানে সৃজনশীলতা বিকশিত হয়। উদ্ভাবনী সহকর্মী এবং অত্যাধুনিক সম্পদের সাথে ধারণাগুলি বাস্তবে রূপ দিন।"
+    },
+    
+    perfectLocation: "নিখুঁত অবস্থান",
+    locationDescription: "মালয়েশিয়ায় অবস্থিত, সিঙ্গাপুরের দিকে একটি ছোট সেতু পারাপারে",
+    toSingapore: "সিঙ্গাপুরের দিকে",
+    minutes: "১৫ মিনিট",
+    tropical: "গ্রীষ্মমন্ডলীয়",
+    perfectWeather: "নিখুঁত আবহাওয়া",
+    modern: "আধুনিক",
+    forestCity: "Forest City",
+    
+    contactTitle: "আপনার ক্যাম্পাস ভিজিট সময়সূচী করুন",
+    contactDescription: "Network School এর জীবনধারা প্রত্যক্ষভাবে অনুভব করুন। আমাদের Forest City ক্যাম্পাসের একটি ট্যুর বুক করুন।",
+    nameLabel: "পূর্ণ নাম",
+    emailLabel: "ইমেইল ঠিকানা",
+    phoneLabel: "ফোন নম্বর",
+    visitTypeLabel: "ভিজিটের ধরণ",
+    visitTypePlaceholder: "ভিজিটের ধরণ নির্বাচন করুন",
+    visitOptions: {
+      campus: "ক্যাম্পাস ভিজিট",
+      virtual: "ভার্চুয়াল ভিজিট",
+      info: "তথ্য সেশন"
+    },
+    messageLabel: "বার্তা (ঐচ্ছিক)",
+    submitInquiry: "অনুসন্ধান পাঠান",
+    
+    newsletterTitle: "যোগাযোগে থাকুন",
+    newsletterDescription: "Network School ইভেন্ট এবং কমিউনিটি নিউজের আপডেট পান।",
+    subscribeNewsletter: "নিউজলেটার সাবস্ক্রাইব করুন",
+    
+    footerDescription: "Forest City, মালয়েশিয়া • আপনার পরবর্তী অধ্যায় এখানে শুরু হয়",
+    
+    inquirySent: "ধন্যবাদ! আপনার অনুসন্ধান সফলভাবে পাঠানো হয়েছে।",
+    subscriptionSuccess: "আমাদের নিউজলেটার সাবস্ক্রাইব করার জন্য ধন্যবাদ!",
+    errorMessage: "কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+
+  pt: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Vida Após os 70 na Network School",
+    heroSubtitle: "Descubra as vantagens de viver na Network School em Forest City, Malásia - apenas 15 minutos através de uma ponte curta para Singapura",
+    applyNow: "Candidatar Agora",
+    advantagesTitle: "17 Características que Gosto na Network School",
+    
+    fitness: {
+      title: "Instalações de Fitness de Última Geração",
+      description: "Equipamentos de ginásio modernos projetados para seniores. Treinadores pessoais especializados em programas de fitness apropriados para a idade."
+    },
+    pools: {
+      title: "Belas Piscinas",
+      description: "Múltiplas piscinas incluindo opções aquecidas. Perfeitas para exercícios de baixo impacto e relaxamento no clima tropical."
+    },
+    nutrition: {
+      title: "Nutrição Blueprint Food",
+      description: "Refeições cientificamente otimizadas projetadas para longevidade. Ingredientes frescos e saudáveis preparados por chefs especialistas."
+    },
+    morningRuck: {
+      title: "Caminhadas Matinais",
+      description: "Comece o seu dia com caminhadas em grupo energizantes. Construa força e comunidade enquanto explora Forest City."
+    },
+    smartYoungPeople: {
+      title: "Jovens Inteligentes",
+      description: "Obtenha perspetivas frescas sobre a vida de mentes jovens brilhantes. Aprendam uns com os outros e mantenham-se mentalmente afiados."
+    },
+    aiClasses: {
+      title: "Aulas de IA",
+      description: "Aprenda inteligência artificial de formas práticas e fáceis de entender. Mantenha-se atualizado com o futuro da tecnologia."
+    },
+    bookClubs: {
+      title: "Aulas de Livros",
+      description: "Discuta grandes livros com outros aprendizes para toda a vida. Expanda a sua mente através da literatura e ideias."
+    },
+    coding: {
+      title: "Programação Vibe",
+      description: "Aprenda novas ferramentas como programação vibe - programação moderna tornada acessível. Crie e construa na era digital."
+    },
+    networkStates: {
+      title: "Construir Estados de Rede",
+      description: "Ajude a projetar o futuro construindo ideias para outros estados de rede. Participe na criação das comunidades de amanhã."
+    },
+    improv: {
+      title: "Aulas de Improvisação",
+      description: "Desenvolva criatividade e confiança através do teatro de improvisação. Divirta-se enquanto desenvolve habilidades de comunicação."
+    },
+    countryRock: {
+      title: "Noites de Country Rock",
+      description: "Desfrute de música ao vivo e dança. Conecte-se com outros através da linguagem universal da música."
+    },
+    blueprintFood: {
+      title: "Estilo de Vida Nutritivo",
+      description: "Siga protocolos nutricionais baseados em evidências. Otimize a sua saúde com planos de refeições cientificamente apoiados."
+    },
+    lifestyle: {
+      title: "Estilo de Vida Social Ativo",
+      description: "Participe em atividades e eventos diversos. Construa amizades significativas e mantenha-se socialmente envolvido."
+    },
+    betterPerson: {
+      title: "Como Ser uma Pessoa Melhor",
+      description: "Foque no crescimento e desenvolvimento pessoal. Aprenda estratégias para viver a sua melhor vida após os 70."
+    },
+    globalCommunity: {
+      title: "Pessoas de Todo o Mundo",
+      description: "Conheça pessoas fascinantes de dezenas de países diferentes. Expanda a sua visão do mundo através de amizades diversas."
+    },
+    cryptoWeb3: {
+      title: "Aprenda Crypto e Web3",
+      description: "Entenda o futuro do dinheiro e da internet. Obtenha orientação especializada sobre moedas digitais e tecnologia blockchain."
+    },
+    videoCreation: {
+      title: "Crie Melhores Vídeos Verticais",
+      description: "Aprenda a fazer vídeos verticais envolventes e mais curtos. Domine técnicas modernas de criação de vídeo para redes sociais e projetos pessoais."
+    },
+    spongeCity: {
+      title: "Viver numa Cidade Esponja",
+      description: "Experimente a gestão inovadora de água urbana. O design de cidade esponja de Forest City absorve, armazena e purifica naturalmente a água da chuva enquanto previne inundações."
+    },
+    lifelongLearning: {
+      title: "Oportunidades de Aprendizagem ao Longo da Vida",
+      description: "Programas de educação contínua projetados para seniores. Desde novas tecnologias a artesanatos tradicionais, nunca pare de crescer e descobrir."
+    },
+    ideaFactory: {
+      title: "Ambiente de Fábrica de Ideias",
+      description: "Espaços de inovação colaborativa onde a criatividade floresce. Transforme ideias em realidade com colegas inovadores e recursos de ponta."
+    },
+    
+    perfectLocation: "Localização Perfeita",
+    locationDescription: "Localizada na Malásia, através de uma ponte curta para Singapura",
+    toSingapore: "Para Singapura",
+    minutes: "15 Minutos",
+    tropical: "Tropical",
+    perfectWeather: "Clima Perfeito",
+    modern: "Moderno",
+    forestCity: "Forest City",
+    
+    contactTitle: "Agende a Sua Visita ao Campus",
+    contactDescription: "Experimente o estilo de vida da Network School em primeira mão. Reserve um tour do nosso campus Forest City.",
+    nameLabel: "Nome Completo",
+    emailLabel: "Endereço de Email",
+    phoneLabel: "Número de Telefone",
+    visitTypeLabel: "Tipo de Visita",
+    visitTypePlaceholder: "Selecione o tipo de visita",
+    visitOptions: {
+      campus: "Visita ao Campus",
+      virtual: "Visita Virtual",
+      info: "Sessão de Informação"
+    },
+    messageLabel: "Mensagem (Opcional)",
+    submitInquiry: "Enviar Consulta",
+    
+    newsletterTitle: "Mantenha-se Conectado",
+    newsletterDescription: "Receba atualizações sobre eventos da Network School e notícias da comunidade.",
+    subscribeNewsletter: "Subscrever Newsletter",
+    
+    footerDescription: "Forest City, Malásia • O seu próximo capítulo começa aqui",
+    
+    inquirySent: "Obrigado! A sua consulta foi enviada com sucesso.",
+    subscriptionSuccess: "Obrigado por subscrever a nossa newsletter!",
+    errorMessage: "Algo correu mal. Por favor, tente novamente."
+  },
+
+  id: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Kehidupan Setelah 70 di Network School",
+    heroSubtitle: "Temukan keuntungan tinggal di Network School di Forest City, Malaysia - hanya 15 menit melalui jembatan pendek ke Singapura",
+    applyNow: "Daftar Sekarang",
+    advantagesTitle: "17 Fitur yang Saya Sukai di Network School",
+    
+    fitness: {
+      title: "Fasilitas Kebugaran Canggih",
+      description: "Peralatan gym modern yang dirancang untuk lansia. Pelatih pribadi yang ahli dalam program kebugaran sesuai usia."
+    },
+    pools: {
+      title: "Kolam Renang Indah",
+      description: "Beberapa kolam termasuk opsi yang dipanaskan. Sempurna untuk olahraga dampak rendah dan relaksasi dalam cuaca tropis."
+    },
+    nutrition: {
+      title: "Nutrisi Blueprint Food",
+      description: "Makanan yang dioptimalkan secara ilmiah dirancang untuk umur panjang. Bahan segar dan sehat yang disiapkan oleh koki ahli."
+    },
+    morningRuck: {
+      title: "Jalan Kaki Pagi",
+      description: "Mulai hari Anda dengan jalan kaki kelompok yang memberikan energi. Bangun kekuatan dan komunitas sambil menjelajahi Forest City."
+    },
+    smartYoungPeople: {
+      title: "Orang Muda Cerdas",
+      description: "Dapatkan perspektif segar tentang kehidupan dari pikiran muda yang brilian. Belajar satu sama lain dan tetap tajam secara mental."
+    },
+    aiClasses: {
+      title: "Kelas AI",
+      description: "Pelajari kecerdasan buatan dengan cara praktis dan mudah dipahami. Tetap update dengan masa depan teknologi."
+    },
+    bookClubs: {
+      title: "Kelas Buku",
+      description: "Diskusikan buku-buku hebat dengan pembelajar seumur hidup lainnya. Perluas pikiran Anda melalui sastra dan ide-ide."
+    },
+    coding: {
+      title: "Coding Vibe",
+      description: "Pelajari alat-alat baru seperti coding vibe - pemrograman modern yang dibuat mudah diakses. Ciptakan dan bangun di era digital."
+    },
+    networkStates: {
+      title: "Membangun Network States",
+      description: "Bantu merancang masa depan dengan membangun ide-ide untuk network states lainnya. Berpartisipasi dalam menciptakan komunitas masa depan."
+    },
+    improv: {
+      title: "Kelas Improvisasi",
+      description: "Kembangkan kreativitas dan kepercayaan diri melalui teater improvisasi. Bersenang-senang sambil mengembangkan keterampilan komunikasi."
+    },
+    countryRock: {
+      title: "Malam Country Rock",
+      description: "Nikmati musik live dan tarian. Terhubung dengan orang lain melalui bahasa universal musik."
+    },
+    blueprintFood: {
+      title: "Gaya Hidup Nutritif",
+      description: "Ikuti protokol nutrisi berbasis bukti. Optimalkan kesehatan Anda dengan rencana makanan yang didukung secara ilmiah."
+    },
+    lifestyle: {
+      title: "Gaya Hidup Sosial Aktif",
+      description: "Berpartisipasi dalam berbagai aktivitas dan acara. Bangun persahabatan yang bermakna dan tetap terlibat secara sosial."
+    },
+    betterPerson: {
+      title: "Cara Menjadi Orang yang Lebih Baik",
+      description: "Fokus pada pertumbuhan dan pengembangan pribadi. Pelajari strategi untuk menjalani kehidupan terbaik Anda setelah 70."
+    },
+    globalCommunity: {
+      title: "Orang-orang dari Seluruh Dunia",
+      description: "Temui orang-orang menarik dari puluhan negara berbeda. Perluas pandangan dunia Anda melalui persahabatan yang beragam."
+    },
+    cryptoWeb3: {
+      title: "Belajar Crypto dan Web3",
+      description: "Pahami masa depan uang dan internet. Dapatkan panduan ahli tentang mata uang digital dan teknologi blockchain."
+    },
+    videoCreation: {
+      title: "Buat Video Vertikal yang Lebih Baik",
+      description: "Pelajari cara membuat video vertikal yang menarik dan lebih pendek. Kuasai teknik pembuatan video modern untuk media sosial dan proyek pribadi."
+    },
+    spongeCity: {
+      title: "Hidup di Kota Spons",
+      description: "Rasakan manajemen air perkotaan yang inovatif. Desain kota spons Forest City secara alami menyerap, menyimpan, dan memurnikan air hujan sambil mencegah banjir."
+    },
+    lifelongLearning: {
+      title: "Peluang Pembelajaran Seumur Hidup",
+      description: "Program pendidikan berkelanjutan yang dirancang untuk lansia. Dari teknologi baru hingga kerajinan tradisional, jangan pernah berhenti tumbuh dan menemukan."
+    },
+    ideaFactory: {
+      title: "Lingkungan Pabrik Ide",
+      description: "Ruang inovasi kolaboratif di mana kreativitas berkembang. Ubah ide menjadi kenyataan dengan rekan-rekan inovatif dan sumber daya canggih."
+    },
+    
+    perfectLocation: "Lokasi Sempurna",
+    locationDescription: "Terletak di Malaysia, hanya melalui jembatan pendek ke Singapura",
+    toSingapore: "Ke Singapura",
+    minutes: "15 Menit",
+    tropical: "Tropis",
+    perfectWeather: "Cuaca Sempurna",
+    modern: "Modern",
+    forestCity: "Forest City",
+    
+    contactTitle: "Jadwalkan Kunjungan Campus Anda",
+    contactDescription: "Rasakan gaya hidup Network School secara langsung. Pesan tur campus Forest City kami.",
+    nameLabel: "Nama Lengkap",
+    emailLabel: "Alamat Email",
+    phoneLabel: "Nomor Telepon",
+    visitTypeLabel: "Jenis Kunjungan",
+    visitTypePlaceholder: "Pilih jenis kunjungan",
+    visitOptions: {
+      campus: "Kunjungan Campus",
+      virtual: "Kunjungan Virtual",
+      info: "Sesi Informasi"
+    },
+    messageLabel: "Pesan (Opsional)",
+    submitInquiry: "Kirim Pertanyaan",
+    
+    newsletterTitle: "Tetap Terhubung",
+    newsletterDescription: "Dapatkan update tentang acara Network School dan berita komunitas.",
+    subscribeNewsletter: "Berlangganan Newsletter",
+    
+    footerDescription: "Forest City, Malaysia • Bab selanjutnya Anda dimulai di sini",
+    
+    inquirySent: "Terima kasih! Pertanyaan Anda berhasil dikirim.",
+    subscriptionSuccess: "Terima kasih telah berlangganan newsletter kami!",
+    errorMessage: "Terjadi kesalahan. Silakan coba lagi."
+  },
+
+  ur: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Network School میں 70 کے بعد زندگی",
+    heroSubtitle: "Forest City، Malaysia میں Network School میں رہنے کے فوائد دریافت کریں - سنگاپور کے لیے ایک چھوٹے پل کے ذریعے صرف 15 منٹ",
+    applyNow: "ابھی درخواست دیں",
+    advantagesTitle: "Network School میں میری پسندیدہ 17 خصوصیات",
+    
+    fitness: {
+      title: "جدید فٹنس سہولات",
+      description: "بزرگوں کے لیے ڈیزائن کیے گئے جدید جم کا سامان۔ عمر کے مطابق فٹنس پروگرام میں مہارت رکھنے والے ذاتی ٹرینرز۔"
+    },
+    pools: {
+      title: "خوبصورت سوئمنگ پولز",
+      description: "گرم آپشنز سمیت متعدد پولز۔ اشنکٹبندیی آب و ہوا میں کم اثر ورزش اور آرام کے لیے بہترین۔"
+    },
+    nutrition: {
+      title: "Blueprint Food غذائیت",
+      description: "طویل زندگی کے لیے سائنسی طور پر بہتر بنائے گئے کھانے۔ ماہر باورچیوں کی طرف سے تیار کیے گئے تازہ، صحت مند اجزاء۔"
+    },
+    morningRuck: {
+      title: "صبح کی واک",
+      description: "توانائی بخش گروپ واک کے ساتھ اپنے دن کی شروعات کریں۔ Forest City کی تلاش کرتے وقت طاقت اور کمیونٹی بنائیں۔"
+    },
+    smartYoungPeople: {
+      title: "ذہین نوجوان",
+      description: "روشن نوجوان ذہنوں سے زندگی کے بارے میں نئے نقطہ نظر حاصل کریں۔ ایک دوسرے سے سیکھیں اور ذہنی طور پر تیز رہیں۔"
+    },
+    aiClasses: {
+      title: "AI کلاسز",
+      description: "عملی، سمجھنے میں آسان طریقوں سے مصنوعی ذہانت سیکھیں۔ ٹیکنالوجی کے مستقبل کے ساتھ اپڈیٹ رہیں۔"
+    },
+    bookClubs: {
+      title: "کتابی کلاسز",
+      description: "دیگر زندگی بھر سیکھنے والوں کے ساتھ عظیم کتابوں پر تبادلہ خیال کریں۔ ادب اور خیالات کے ذریعے اپنے ذہن کو وسیع کریں۔"
+    },
+    coding: {
+      title: "Vibe کوڈنگ",
+      description: "vibe کوڈنگ جیسے نئے ٹولز سیکھیں - جدید پروگرامنگ کو قابل رسائی بنایا گیا۔ ڈیجیٹل دور میں تخلیق اور تعمیر کریں۔"
+    },
+    networkStates: {
+      title: "نیٹ ورک ریاستوں کی تعمیر",
+      description: "دیگر نیٹ ورک ریاستوں کے لیے خیالات بنا کر مستقبل کو ڈیزائن کرنے میں مدد کریں۔ کل کی کمیونٹیز بنانے میں حصہ لیں۔"
+    },
+    improv: {
+      title: "اصلاحی کلاسز",
+      description: "اصلاحی تھیٹر کے ذریعے تخلیقی صلاحیت اور اعتماد پیدا کریں۔ رابطے کی مہارت تیار کرتے وقت مزہ کریں۔"
+    },
+    countryRock: {
+      title: "کنٹری راک راتیں",
+      description: "زندہ موسیقی اور رقص کا لطف اٹھائیں۔ موسیقی کی عالمگیر زبان کے ذریعے دوسروں سے جڑیں۔"
+    },
+    blueprintFood: {
+      title: "غذائی طرز زندگی",
+      description: "ثبوت پر مبنی غذائی پروٹوکولز کی پیروی کریں۔ سائنسی طور پر معاون کھانے کے منصوبوں کے ساتھ اپنی صحت کو بہتر بنائیں۔"
+    },
+    lifestyle: {
+      title: "فعال سماجی طرز زندگی",
+      description: "مختلف سرگرمیوں اور واقعات میں حصہ لیں۔ بامقصد دوستیاں بنائیں اور سماجی طور پر مصروف رہیں۔"
+    },
+    betterPerson: {
+      title: "بہتر انسان کیسے بنیں",
+      description: "ذاتی نمو اور ترقی پر توجہ دیں۔ 70 کے بعد اپنی بہترین زندگی گزارنے کی حکمت عملیاں سیکھیں۔"
+    },
+    globalCommunity: {
+      title: "دنیا بھر کے لوگ",
+      description: "درجنوں مختلف ممالک سے دلچسپ لوگوں سے ملیں۔ متنوع دوستیوں کے ذریعے اپنے عالمی نقطہ نظر کو وسیع کریں۔"
+    },
+    cryptoWeb3: {
+      title: "Crypto اور Web3 سیکھیں",
+      description: "پیسے اور انٹرنیٹ کا مستقبل سمجھیں۔ ڈیجیٹل کرنسیوں اور بلاک چین ٹیکنالوجی پر ماہرانہ رہنمائی حاصل کریں۔"
+    },
+    videoCreation: {
+      title: "بہتر عمودی ویڈیوز بنائیں",
+      description: "دلکش اور مختصر عمودی ویڈیوز بنانا سیکھیں۔ سوشل میڈیا اور ذاتی منصوبوں کے لیے جدید ویڈیو بنانے کی تکنیکوں میں مہارت حاصل کریں۔"
+    },
+    spongeCity: {
+      title: "سپنج سٹی میں زندگی",
+      description: "جدید شہری پانی کا انتظام تجربہ کریں۔ Forest City کا سپنج سٹی ڈیزائن قدرتی طور پر بارش کا پانی جذب، محفوظ اور صاف کرتا ہے جبکہ سیلاب کو روکتا ہے۔"
+    },
+    lifelongLearning: {
+      title: "زندگی بھر سیکھنے کے مواقع",
+      description: "بزرگوں کے لیے ڈیزائن کیے گئے مسلسل تعلیمی پروگرام۔ نئی ٹیکنالوجیز سے روایتی دستکاری تک، کبھی بڑھنا اور دریافت کرنا بند نہ کریں۔"
+    },
+    ideaFactory: {
+      title: "آئیڈیا فیکٹری ماحول",
+      description: "تعاونی اختراع کی جگہیں جہاں تخلیقی صلاحیت پھلتی پھولتی ہے۔ اختراعی ساتھیوں اور جدید وسائل کے ساتھ خیالات کو حقیقت میں بدلیں۔"
+    },
+    
+    perfectLocation: "کامل مقام",
+    locationDescription: "ملائیشیا میں واقع، سنگاپور کے لیے ایک چھوٹے پل کے پار",
+    toSingapore: "سنگاپور تک",
+    minutes: "15 منٹ",
+    tropical: "اشنکٹبندیی",
+    perfectWeather: "بہترین موسم",
+    modern: "جدید",
+    forestCity: "Forest City",
+    
+    contactTitle: "اپنے کیمپس کی مُلاقات شیڈول کریں",
+    contactDescription: "Network School کا طرز زندگی خود تجربہ کریں۔ ہمارے Forest City کیمپس کا ٹور بُک کریں۔",
+    nameLabel: "مکمل نام",
+    emailLabel: "ای میل پتہ",
+    phoneLabel: "فون نمبر",
+    visitTypeLabel: "ملاقات کی قسم",
+    visitTypePlaceholder: "ملاقات کی قسم منتخب کریں",
+    visitOptions: {
+      campus: "کیمپس کی ملاقات",
+      virtual: "ورچوئل ملاقات",
+      info: "معلوماتی سیشن"
+    },
+    messageLabel: "پیغام (اختیاری)",
+    submitInquiry: "استفسار بھیجیں",
+    
+    newsletterTitle: "رابطے میں رہیں",
+    newsletterDescription: "Network School کے واقعات اور کمیونٹی کی خبروں کے اپڈیٹ حاصل کریں۔",
+    subscribeNewsletter: "نیوز لیٹر سبسکرائب کریں",
+    
+    footerDescription: "Forest City، ملائیشیا • آپ کا اگلا باب یہاں شروع ہوتا ہے",
+    
+    inquirySent: "شکریہ! آپ کا استفسار کامیابی سے بھیجا گیا۔",
+    subscriptionSuccess: "ہمارے نیوز لیٹر کو سبسکرائب کرنے کا شکریہ!",
+    errorMessage: "کچھ غلط ہوا۔ براہ کرم دوبارہ کوشش کریں۔"
+  },
+
+  de: {
+    siteTitle: "Network School Forest City",
+    heroTitle: "Leben nach 70 in der Network School",
+    heroSubtitle: "Entdecken Sie die Vorteile des Lebens in der Network School in Forest City, Malaysia - nur 15 Minuten über eine kurze Brücke nach Singapur",
+    applyNow: "Jetzt bewerben",
+    advantagesTitle: "17 Eigenschaften, die ich an der Network School liebe",
+    
+    fitness: {
+      title: "Modernste Fitness-Einrichtungen",
+      description: "Moderne Fitnessgeräte, die für Senioren entwickelt wurden. Persönliche Trainer, die auf altersgerechte Fitnessprogramme spezialisiert sind."
+    },
+    pools: {
+      title: "Schöne Schwimmbäder",
+      description: "Mehrere Pools inklusive beheizter Optionen. Perfekt für schonende Übungen und Entspannung im tropischen Klima."
+    },
+    nutrition: {
+      title: "Blueprint Food Ernährung",
+      description: "Wissenschaftlich optimierte Mahlzeiten für Langlebigkeit. Frische, gesunde Zutaten von Expertenköchen zubereitet."
+    },
+    morningRuck: {
+      title: "Morgendliche Wanderungen",
+      description: "Beginnen Sie Ihren Tag mit energiegeladenen Gruppenwanderungen. Bauen Sie Kraft und Gemeinschaft auf, während Sie Forest City erkunden."
+    },
+    smartYoungPeople: {
+      title: "Kluge junge Leute",
+      description: "Erhalten Sie frische Perspektiven auf das Leben von brillanten jungen Köpfen. Lernen Sie voneinander und bleiben Sie geistig scharf."
+    },
+    aiClasses: {
+      title: "KI-Kurse",
+      description: "Lernen Sie künstliche Intelligenz auf praktische, leicht verständliche Weise. Bleiben Sie mit der Zukunft der Technologie auf dem Laufenden."
+    },
+    bookClubs: {
+      title: "Buchkurse",
+      description: "Diskutieren Sie großartige Bücher mit anderen lebenslangen Lernenden. Erweitern Sie Ihren Geist durch Literatur und Ideen."
+    },
+    coding: {
+      title: "Vibe Programmierung",
+      description: "Lernen Sie neue Tools wie Vibe-Programmierung - moderne Programmierung zugänglich gemacht. Erschaffen und bauen Sie im digitalen Zeitalter."
+    },
+    networkStates: {
+      title: "Network States aufbauen",
+      description: "Helfen Sie dabei, die Zukunft zu gestalten, indem Sie Ideen für andere Network States entwickeln. Beteiligen Sie sich an der Schaffung der Gemeinschaften von morgen."
+    },
+    improv: {
+      title: "Improvisationskurse",
+      description: "Entwickeln Sie Kreativität und Selbstvertrauen durch Improvisationstheater. Haben Sie Spaß, während Sie Kommunikationsfähigkeiten entwickeln."
+    },
+    countryRock: {
+      title: "Country Rock Abende",
+      description: "Genießen Sie Live-Musik und Tanz. Verbinden Sie sich mit anderen durch die universelle Sprache der Musik."
+    },
+    blueprintFood: {
+      title: "Nährender Lebensstil",
+      description: "Folgen Sie evidenzbasierten Ernährungsprotokollen. Optimieren Sie Ihre Gesundheit mit wissenschaftlich unterstützten Mahlzeitenplänen."
+    },
+    lifestyle: {
+      title: "Aktiver sozialer Lebensstil",
+      description: "Nehmen Sie an verschiedenen Aktivitäten und Veranstaltungen teil. Bauen Sie bedeutungsvolle Freundschaften auf und bleiben Sie sozial engagiert."
+    },
+    betterPerson: {
+      title: "Wie man ein besserer Mensch wird",
+      description: "Konzentrieren Sie sich auf persönliches Wachstum und Entwicklung. Lernen Sie Strategien, um Ihr bestes Leben nach 70 zu führen."
+    },
+    globalCommunity: {
+      title: "Menschen aus aller Welt",
+      description: "Treffen Sie faszinierende Menschen aus dutzenden verschiedener Länder. Erweitern Sie Ihre Weltanschauung durch vielfältige Freundschaften."
+    },
+    cryptoWeb3: {
+      title: "Crypto und Web3 lernen",
+      description: "Verstehen Sie die Zukunft von Geld und Internet. Erhalten Sie Expertenberatung zu digitalen Währungen und Blockchain-Technologie."
+    },
+    videoCreation: {
+      title: "Bessere vertikale Videos erstellen",
+      description: "Lernen Sie, ansprechende und kürzere vertikale Videos zu erstellen. Meistern Sie moderne Videoerstellungstechniken für soziale Medien und persönliche Projekte."
+    },
+    spongeCity: {
+      title: "Leben in einer Schwammstadt",
+      description: "Erleben Sie innovatives urbanes Wassermanagement. Das Schwammstadt-Design von Forest City absorbiert, speichert und reinigt Regenwasser natürlich, während es Überschwemmungen verhindert."
+    },
+    lifelongLearning: {
+      title: "Möglichkeiten des lebenslangen Lernens",
+      description: "Fortlaufende Bildungsprogramme für Senioren. Von neuen Technologien bis zu traditionellem Handwerk - hören Sie niemals auf zu wachsen und zu entdecken."
+    },
+    ideaFactory: {
+      title: "Ideenfabrik-Umgebung",
+      description: "Kollaborative Innovationsräume, wo Kreativität gedeiht. Verwandeln Sie Ideen mit innovativen Kollegen und modernster Ausstattung in Realität."
+    },
+    
+    perfectLocation: "Perfekte Lage",
+    locationDescription: "In Malaysia gelegen, über eine kurze Brücke nach Singapur",
+    toSingapore: "Nach Singapur",
+    minutes: "15 Minuten",
+    tropical: "Tropisch",
+    perfectWeather: "Perfektes Wetter",
+    modern: "Modern",
+    forestCity: "Forest City",
+    
+    contactTitle: "Planen Sie Ihren Campus-Besuch",
+    contactDescription: "Erleben Sie den Network School Lebensstil aus erster Hand. Buchen Sie eine Tour durch unseren Forest City Campus.",
+    nameLabel: "Vollständiger Name",
+    emailLabel: "E-Mail-Adresse",
+    phoneLabel: "Telefonnummer",
+    visitTypeLabel: "Besuchstyp",
+    visitTypePlaceholder: "Besuchstyp wählen",
+    visitOptions: {
+      campus: "Campus-Besuch",
+      virtual: "Virtueller Besuch",
+      info: "Informationssitzung"
+    },
+    messageLabel: "Nachricht (Optional)",
+    submitInquiry: "Anfrage senden",
+    
+    newsletterTitle: "Bleiben Sie verbunden",
+    newsletterDescription: "Erhalten Sie Updates über Network School Events und Community-News.",
+    subscribeNewsletter: "Newsletter abonnieren",
+    
+    footerDescription: "Forest City, Malaysia • Ihr nächstes Kapitel beginnt hier",
+    
+    inquirySent: "Danke! Ihre Anfrage wurde erfolgreich gesendet.",
+    subscriptionSuccess: "Danke für das Abonnieren unseres Newsletters!",
+    errorMessage: "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
   }
 };
 
@@ -1613,5 +2228,14 @@ export const languages: { code: Language; name: string; flag: string }[] = [
   { code: 'ja', name: '日本語', flag: '🇯🇵' },
   { code: 'ru', name: 'Русский', flag: '🇷🇺' },
   { code: 'ar', name: 'العربية', flag: '🇸🇦' },
-  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' }
+  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'bn', name: 'বাংলা', flag: '🇧🇩' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+  { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
+  { code: 'ur', name: 'اردو', flag: '🇵🇰' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'mr', name: 'मराठी', flag: '🇮🇳' },
+  { code: 'te', name: 'తెలుగు', flag: '🇮🇳' },
+  { code: 'ha', name: 'Hausa', flag: '🇳🇬' },
+  { code: 'tr', name: 'Türkçe', flag: '🇹🇷' }
 ];
