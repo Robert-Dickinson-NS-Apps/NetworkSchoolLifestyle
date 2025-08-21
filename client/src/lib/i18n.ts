@@ -2215,27 +2215,27 @@ export const translations: Record<string, Translation> = {
 export type Language = keyof typeof translations;
 
 export const languages: { code: Language; name: string; flag: string }[] = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'ms', name: 'Bahasa Melayu', flag: '🇲🇾' },
-  { code: 'th', name: 'ไทย', flag: '🇹🇭' },
-  { code: 'ta', name: 'தமிழ்', flag: '🇮🇳' },
-  { code: 'tl', name: 'Filipino', flag: '🇵🇭' },
-  { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
-  { code: 'ko', name: '한국어', flag: '🇰🇷' },
-  { code: 'ja', name: '日本語', flag: '🇯🇵' },
-  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
-  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
-  { code: 'bn', name: 'বাংলা', flag: '🇧🇩' },
-  { code: 'pt', name: 'Português', flag: '🇵🇹' },
-  { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
-  { code: 'ur', name: 'اردو', flag: '🇵🇰' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'mr', name: 'मराठी', flag: '🇮🇳' },
-  { code: 'te', name: 'తెలుగు', flag: '🇮🇳' },
-  { code: 'ha', name: 'Hausa', flag: '🇳🇬' },
-  { code: 'tr', name: 'Türkçe', flag: '🇹🇷' }
+  { code: 'en', name: 'English', flag: '🇺🇸' },        // 1,528M total speakers
+  { code: 'zh', name: '中文', flag: '🇨🇳' },           // 1,184M total speakers  
+  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },         // 609M total speakers
+  { code: 'es', name: 'Español', flag: '🇪🇸' },        // 558M total speakers
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' },        // 335M total speakers
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },       // 312M total speakers
+  { code: 'bn', name: 'বাংলা', flag: '🇧🇩' },          // 284M total speakers
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },      // 267M total speakers
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },        // 253M total speakers
+  { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' }, // 252M total speakers
+  { code: 'ur', name: 'اردو', flag: '🇵🇰' },          // 246M total speakers
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },        // 134M total speakers
+  { code: 'ja', name: '日本語', flag: '🇯🇵' },          // 126M total speakers
+  { code: 'mr', name: 'मराठी', flag: '🇮🇳' },          // 99M total speakers
+  { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },     // 97M total speakers
+  { code: 'te', name: 'తెలుగు', flag: '🇮🇳' },         // 96M total speakers
+  { code: 'ha', name: 'Hausa', flag: '🇳🇬' },          // 94M total speakers
+  { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },         // Turkish
+  { code: 'ko', name: '한국어', flag: '🇰🇷' },          // Korean
+  { code: 'ta', name: 'தமிழ்', flag: '🇮🇳' },          // Tamil
+  { code: 'tl', name: 'Filipino', flag: '🇵🇭' },       // Filipino
+  { code: 'th', name: 'ไทย', flag: '🇹🇭' },           // Thai
+  { code: 'ms', name: 'Bahasa Melayu', flag: '🇲🇾' }   // Malay
 ];
