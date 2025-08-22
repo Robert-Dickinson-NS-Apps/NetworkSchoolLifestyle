@@ -60,7 +60,7 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="relative py-12 sm:py-20 overflow-hidden min-h-[80vh] sm:min-h-screen flex items-center">
+      <section className="relative py-8 sm:py-12 overflow-hidden min-h-[50vh] sm:min-h-[60vh] flex items-center">
         <img 
           src="/forest-city.png" 
           alt="Forest City Malaysia" 
