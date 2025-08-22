@@ -135,4 +135,59 @@
   .flag-entrance {
     animation: flag-bounce-in 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
+
+  /* iOS Mobile Optimizations */
+  @supports (-webkit-touch-callout: none) {
+    /* iOS Safari specific styles */
+    body {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Better iOS scrolling */
+    .overflow-y-auto {
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* iOS button optimization */
+    button, .btn-senior, [role="button"] {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      touch-action: manipulation;
+    }
+
+    /* iOS input zoom prevention */
+    input, select, textarea {
+      font-size: 16px;
+    }
+  }
+
+  /* Mobile-first responsive breakpoints */
+  @media (max-width: 640px) {
+    /* Mobile text sizing */
+    .text-senior-mobile {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    
+    /* Mobile spacing */
+    .mobile-spacing {
+      padding: 1rem;
+    }
+
+    /* Touch-friendly interactive elements */
+    .touch-target {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+
+  /* High-resolution displays (Retina) */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    /* Crisp borders on high-DPI screens */
+    .border {
+      border-width: 0.5px;
+    }
+  }
 }

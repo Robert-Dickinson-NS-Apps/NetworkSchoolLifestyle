@@ -27,7 +27,7 @@ export function LanguageSelector() {
         <Button 
           variant="outline" 
           size="sm" 
-          className="gap-2 hover:shadow-md transition-all duration-300 hover:scale-105 border-2 hover:border-primary/50"
+          className="gap-2 hover:shadow-md transition-all duration-300 hover:scale-105 border-2 hover:border-primary/50 min-h-[44px] px-3 text-sm sm:text-base"
         >
           <Globe 
             size={16} 
@@ -46,20 +46,20 @@ export function LanguageSelector() {
           </span>
           <ChevronDown 
             size={14} 
-            className={`transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+            className={`hidden sm:inline transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
           />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent 
         align="end" 
-        className="w-56 max-h-80 overflow-y-auto animate-in slide-in-from-top-2 duration-200"
+        className="w-64 sm:w-56 max-h-80 overflow-y-auto animate-in slide-in-from-top-2 duration-200"
       >
         {languages.map((lang, index) => (
           <DropdownMenuItem
             key={lang.code}
             onClick={() => handleLanguageChange(lang.code)}
             className={`
-              cursor-pointer transition-all duration-200 hover:bg-accent/80 
+              cursor-pointer transition-all duration-200 hover:bg-accent/80 min-h-[48px] flex items-center
               ${language === lang.code ? "bg-accent text-accent-foreground font-semibold" : ""} 
               animate-in slide-in-from-left-1 hover:scale-105 hover:shadow-sm
             `}

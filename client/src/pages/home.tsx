@@ -36,15 +36,17 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
-      <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
-        <nav className="max-w-7xl mx-auto px-4 py-6">
+      <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
+        <nav className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <GraduationCap className="text-primary mr-3" size={40} />
-              <span className="text-3xl font-bold text-neutral dark:text-white">{t.siteTitle}</span>
+              <GraduationCap className="text-primary mr-2 sm:mr-3" size={32} />
+              <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-neutral dark:text-white truncate">
+                {t.siteTitle}
+              </span>
             </div>
-            <div className="flex items-center space-x-4">
-              <Link href="/docs">
+            <div className="flex items-center space-x-2 sm:space-x-4">
+              <Link href="/docs" className="hidden sm:block">
                 <Button variant="outline" size="sm" className="flex items-center space-x-2">
                   <FileText className="h-4 w-4" />
                   <span>Documentation</span>
@@ -58,15 +60,15 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-12 sm:py-20 overflow-hidden min-h-[80vh] sm:min-h-screen flex items-center">
         <img 
           src="/forest-city.png" 
           alt="Forest City Malaysia" 
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40"></div>
-        <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-          <h1 className="text-6xl font-bold text-white mb-8 drop-shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 text-center relative z-10 w-full">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 sm:mb-8 drop-shadow-lg leading-tight">
             {t.heroTitle.includes('Network School') ? (
               <>
                 {t.heroTitle.split('Network School')[0]}
@@ -77,12 +79,12 @@ export default function Home() {
               t.heroTitle
             )}
           </h1>
-          <p className="text-2xl text-white mb-12 max-w-4xl mx-auto drop-shadow-md">
+          <p className="text-lg sm:text-xl lg:text-2xl text-white mb-8 sm:mb-12 max-w-4xl mx-auto drop-shadow-md leading-relaxed">
             {t.heroSubtitle}
           </p>
-          <div className="flex items-center justify-center text-xl text-white mb-8 drop-shadow-md">
-            <MapPin className="mr-2 text-yellow-400" size={24} />
-            Forest City, Malaysia • 15 minutes to Singapore
+          <div className="flex items-center justify-center text-base sm:text-lg lg:text-xl text-white mb-8 drop-shadow-md">
+            <MapPin className="mr-2 text-yellow-400" size={20} />
+            <span className="text-center">Forest City, Malaysia • 15 minutes to Singapore</span>
           </div>
           
           <div className="flex justify-center">
@@ -90,7 +92,7 @@ export default function Home() {
               href="https://ns.com/apply" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-primary text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-primary/90 transition-colors shadow-lg hover:shadow-xl"
+              className="bg-primary text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 min-h-[48px] flex items-center justify-center"
             >
               {t.applyNow}
             </a>
@@ -99,43 +101,43 @@ export default function Home() {
       </section>
 
       {/* Advantages Grid */}
-      <section className="py-20 bg-white dark:bg-gray-800">
+      <section className="py-12 sm:py-20 bg-white dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-5xl font-bold text-center text-neutral dark:text-white mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-neutral dark:text-white mb-8 sm:mb-16 leading-tight">
             {t.advantagesTitle}
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             
             {/* Fitness */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden min-h-[280px] sm:min-h-[320px] transform hover:scale-105">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-purple-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Dumbbell className="text-primary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.fitness.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Dumbbell className="text-primary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 leading-tight">{t.fitness.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                   {t.fitness.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Pools */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden min-h-[280px] sm:min-h-[320px] transform hover:scale-105">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-green-600/30 via-blue-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Waves className="text-primary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.pools.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Waves className="text-primary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 leading-tight">{t.pools.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                   {t.pools.description}
                 </p>
               </CardContent>
