@@ -1,20 +1,71 @@
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { useTheme } from "@/contexts/ThemeContext";
 
 export function ThemeToggle() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, setTheme, effectiveTheme } = useTheme();
+
+  const themes = [
+    {
+      value: 'light',
+      label: 'Light',
+      icon: Sun,
+    },
+    {
+      value: 'dark',
+      label: 'Dark',
+      icon: Moon,
+    },
+    {
+      value: 'system',
+      label: 'System',
+      icon: Monitor,
+    },
+  ];
+
+  const currentTheme = themes.find(t => t.value === theme);
+  const CurrentIcon = currentTheme?.icon || Sun;
 
   return (
-    <Button
-      variant="outline"
-      size="sm"
-      onClick={toggleTheme}
-      className="w-9 h-9 p-0"
-    >
-      <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-      <span className="sr-only">Toggle theme</span>
-    </Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button
+          variant="outline"
+          size="sm"
+          className="w-auto px-3 gap-2 hover:shadow-md transition-all duration-300 hover:scale-105 border-2 hover:border-primary/50"
+        >
+          <CurrentIcon className="h-4 w-4 transition-transform duration-300" />
+          <span className="hidden sm:inline font-medium">{currentTheme?.label}</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" className="w-40 animate-in slide-in-from-top-2 duration-200">
+        {themes.map((themeOption) => {
+          const Icon = themeOption.icon;
+          return (
+            <DropdownMenuItem
+              key={themeOption.value}
+              onClick={() => setTheme(themeOption.value as any)}
+              className={`
+                cursor-pointer transition-all duration-200 hover:bg-accent/80 gap-3
+                ${theme === themeOption.value ? "bg-accent text-accent-foreground font-semibold" : ""} 
+                hover:scale-105 hover:shadow-sm
+              `}
+            >
+              <Icon className="h-4 w-4" />
+              <span>{themeOption.label}</span>
+              {theme === themeOption.value && (
+                <span className="ml-auto text-xs text-accent-foreground/70">✓</span>
+              )}
+            </DropdownMenuItem>
+          );
+        })}
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
