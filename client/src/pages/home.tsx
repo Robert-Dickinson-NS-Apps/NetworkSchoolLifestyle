@@ -435,14 +435,24 @@ export default function Home() {
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.globalCommunity.description}
                 </p>
-                <Button 
-                  size="sm" 
-                  className="bg-secondary hover:bg-secondary/90 text-white"
-                  onClick={() => window.open('https://nsvibecodingasiarainfall.com/', '_blank')}
-                >
-                  <ExternalLink className="mr-2" size={16} />
-                  Explore Global Community
-                </Button>
+                <div className="flex flex-wrap gap-2">
+                  <Button 
+                    size="sm" 
+                    className="bg-secondary hover:bg-secondary/90 text-white"
+                    onClick={() => window.open('https://nsvibecodingasiarainfall.com/', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Explore Global Community
+                  </Button>
+                  <Button 
+                    size="sm" 
+                    className="bg-green-600 hover:bg-green-700 text-white"
+                    onClick={() => window.open('https://gator-village-spark.lovable.app', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Gator Village
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
