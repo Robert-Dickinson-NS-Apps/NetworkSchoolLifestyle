@@ -304,14 +304,24 @@ export default function Home() {
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.coding.description}
                 </p>
-                <Button 
-                  size="sm" 
-                  className="bg-accent hover:bg-accent/90 text-white"
-                  onClick={() => window.open('https://pudgypenguinpaddleplanets.com/', '_blank')}
-                >
-                  <ExternalLink className="mr-2" size={16} />
-                  Pudgy Penguin Game
-                </Button>
+                <div className="flex flex-wrap gap-2">
+                  <Button 
+                    size="sm" 
+                    className="bg-accent hover:bg-accent/90 text-white"
+                    onClick={() => window.open('https://pudgypenguinpaddleplanets.com/', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Pudgy Penguin Game
+                  </Button>
+                  <Button 
+                    size="sm" 
+                    className="bg-cyan-600 hover:bg-cyan-700 text-white"
+                    onClick={() => window.open('https://pudgy-water-flow.lovable.app', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Pudgy Water Flow
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
