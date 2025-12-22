@@ -458,9 +458,17 @@ export default function Home() {
               <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Video className="text-red-600 mb-4" size={48} />
                 <h3 className="text-2xl font-bold mb-4">{t.videoCreation.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.videoCreation.description}
                 </p>
+                <Button 
+                  size="sm" 
+                  className="bg-red-600 hover:bg-red-700 text-white"
+                  onClick={() => window.open('https://mirror-pix-app.lovable.app', '_blank')}
+                >
+                  <ExternalLink className="mr-2" size={16} />
+                  Try Mirror Pix
+                </Button>
               </CardContent>
             </Card>
 
