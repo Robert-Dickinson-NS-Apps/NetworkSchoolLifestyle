@@ -339,7 +339,7 @@ export default function Home() {
                   onClick={() => window.open('https://yournetworkstate.com/', '_blank')}
                 >
                   <ExternalLink className="mr-2" size={16} />
-                  Learn More
+                  Your Network State
                 </Button>
               </CardContent>
             </Card>
