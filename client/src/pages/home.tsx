@@ -310,7 +310,7 @@ export default function Home() {
                   onClick={() => window.open('https://pudgypenguinpaddleplanets.com/', '_blank')}
                 >
                   <ExternalLink className="mr-2" size={16} />
-                  Try Vibe Coding
+                  Pudgy Penguin Game
                 </Button>
               </CardContent>
             </Card>
