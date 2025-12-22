@@ -629,7 +629,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Kehidupan Selepas 70 di Network School",
     heroSubtitle: "Temui kelebihan tinggal di Network School di Forest City, Malaysia - hanya 15 minit melalui jambatan pendek ke Singapura",
     applyNow: "Mohon Sekarang",
-    advantagesTitle: "17 Ciri yang saya suka di Network School",
+    advantagesTitle: "20 Ciri yang saya suka di Network School",
     
     fitness: {
       title: "Kemudahan Kecergasan Canggih",
@@ -752,7 +752,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "ชีวิตหลังวัย 70 ที่ Network School",
     heroSubtitle: "ค้นพบข้อดีของการอยู่ที่ Network School ใน Forest City มาเลเซีย - เพียง 15 นาทีผ่านสะพานสั้นๆ ไปสิงคโปร์",
     applyNow: "สมัครเลย",
-    advantagesTitle: "17 คุณสมบัติที่ฉันชอบที่ Network School",
+    advantagesTitle: "20 คุณสมบัติที่ฉันชอบที่ Network School",
     
     fitness: {
       title: "สิ่งอำนวยความสะดวกด้านฟิตเนสที่ทันสมัย",
@@ -875,7 +875,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "70 வயதிற்குப் பிறகு Network School இல் வாழ்க்கை",
     heroSubtitle: "மலேசியாவின் Forest City இல் Network School இல் வாழ்வதன் பலன்களைக் கண்டறியுங்கள் - சிங்கப்பூருக்கு ஒரு குறுகிய பாலம் வழியாக வெறும் 15 நிமிடங்கள்",
     applyNow: "இப்போதே விண்ணப்பிக்கவும்",
-    advantagesTitle: "Network School இல் நான் விரும்பும் 17 அம்சங்கள்",
+    advantagesTitle: "Network School இல் நான் விரும்பும் 20 அம்சங்கள்",
     
     fitness: {
       title: "அதிநவீன உடற்பயிற்சி வசதிகள்",
@@ -1244,7 +1244,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Жизнь после 70 в Network School",
     heroSubtitle: "Откройте для себя преимущества жизни в Network School в Форест-Сити, Малайзия - всего в 15 минутах езды по короткому мосту до Сингапура",
     applyNow: "Подать заявку",
-    advantagesTitle: "17 особенностей, которые мне нравятся в Network School",
+    advantagesTitle: "20 особенностей, которые мне нравятся в Network School",
     
     fitness: {
       title: "Современные фитнес-центры",
@@ -1613,7 +1613,7 @@ export const translations: Record<string, Translation> = {
     heroTitle: "Network School এ ৭০ বছর পরের জীবন",
     heroSubtitle: "মালয়েশিয়ার Forest City এ Network School এ বসবাসের সুবিধা আবিষ্কার করুন - সিঙ্গাপুরের দিকে একটি ছোট সেতু পারাপারে মাত্র ১৫ মিনিট",
     applyNow: "এখনই আবেদন করুন",
-    advantagesTitle: "Network School এ আমার পছন্দের ১৭টি বৈশিষ্ট্য",
+    advantagesTitle: "Network School এ আমার পছন্দের ২০টি বৈশিষ্ট্য",
     
     fitness: {
       title: "অত্যাধুনিক ফিটনেস সুবিধা",
