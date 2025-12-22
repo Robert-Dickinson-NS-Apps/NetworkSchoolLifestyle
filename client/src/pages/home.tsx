@@ -450,7 +450,7 @@ export default function Home() {
                     onClick={() => window.open('https://gator-village-spark.lovable.app', '_blank')}
                   >
                     <ExternalLink className="mr-2" size={16} />
-                    Gator Village
+                    Gator Diamond Village
                   </Button>
                 </div>
               </CardContent>
