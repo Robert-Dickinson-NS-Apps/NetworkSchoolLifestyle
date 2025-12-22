@@ -265,14 +265,24 @@ export default function Home() {
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                   {t.bookClubs.description}
                 </p>
-                <Button 
-                  size="sm" 
-                  className="bg-accent hover:bg-accent/90 text-white"
-                  onClick={() => window.open('https://thenetworkstate.com/', '_blank')}
-                >
-                  <ExternalLink className="mr-2" size={16} />
-                  Read The Network State
-                </Button>
+                <div className="flex flex-wrap gap-2">
+                  <Button 
+                    size="sm" 
+                    className="bg-accent hover:bg-accent/90 text-white"
+                    onClick={() => window.open('https://thenetworkstate.com/', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Read The Network State
+                  </Button>
+                  <Button 
+                    size="sm" 
+                    className="bg-orange-600 hover:bg-orange-700 text-white"
+                    onClick={() => window.open('https://heinlein-chronicles.lovable.app', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Heinlein Chronicles
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
