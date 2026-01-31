@@ -809,7 +809,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <a 
               href="https://x.com/nikkideyy" 
               target="_blank" 
@@ -841,6 +841,17 @@ export default function Home() {
               <div className="text-4xl mb-3">🌐</div>
               <h3 className="font-bold text-lg text-neutral dark:text-white group-hover:text-primary transition-colors">@James_of_Arc</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Future Network States - Insights on what's next</p>
+            </a>
+            
+            <a 
+              href="https://x.com/DaniellaDigital" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-center group"
+            >
+              <div className="text-4xl mb-3">🎨</div>
+              <h3 className="font-bold text-lg text-neutral dark:text-white group-hover:text-primary transition-colors">@DaniellaDigital</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">NS Art - The future of art and creativity</p>
             </a>
           </div>
         </div>
