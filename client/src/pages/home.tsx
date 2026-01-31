@@ -440,17 +440,19 @@ export default function Home() {
                     size="sm" 
                     className="bg-accent hover:bg-accent/90 text-white"
                     onClick={() => window.open('https://pudgypenguinpaddleplanets.com/', '_blank')}
+                    title="A game I built for the Pengu coin community"
                   >
                     <ExternalLink className="mr-2" size={16} />
-                    Pudgy Penguin Game
+                    Pengu Coin Game
                   </Button>
                   <Button 
                     size="sm" 
                     className="bg-cyan-600 hover:bg-cyan-700 text-white"
                     onClick={() => window.open('https://pudgy-water-flow.lovable.app', '_blank')}
+                    title="An Antarctic penguin water simulation"
                   >
                     <ExternalLink className="mr-2" size={16} />
-                    Pudgy Water Flow
+                    Antarctic Penguins
                   </Button>
                 </div>
               </CardContent>
@@ -594,9 +596,10 @@ export default function Home() {
                     size="sm" 
                     className="bg-green-600 hover:bg-green-700 text-white"
                     onClick={() => window.open('https://gator-village-spark.lovable.app', '_blank')}
+                    title="My grad school married housing - reminds me of NS community living"
                   >
                     <ExternalLink className="mr-2" size={16} />
-                    Gator Diamond Village
+                    Grad School Memories
                   </Button>
                 </div>
               </CardContent>
@@ -703,9 +706,10 @@ export default function Home() {
                     size="sm" 
                     className="bg-indigo-600 hover:bg-indigo-700 text-white"
                     onClick={() => window.open('https://mirror-pix-app.lovable.app', '_blank')}
+                    title="Exploring 1729 - Ramanujan's famous taxicab number"
                   >
                     <ExternalLink className="mr-2" size={16} />
-                    Pi Machine
+                    1729 Ramanujan
                   </Button>
                 </div>
               </CardContent>
