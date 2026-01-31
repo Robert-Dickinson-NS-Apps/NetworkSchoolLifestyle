@@ -666,6 +666,67 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Me Section */}
+      <section id="about" className="py-12 sm:py-16 bg-white dark:bg-gray-800 scroll-mt-24">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-2">
+              About the Creator
+            </h2>
+          </div>
+          
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-shrink-0">
+              <img 
+                src="/images/robert-dickinson.png" 
+                alt="Robert Dickinson"
+                className="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover shadow-lg border-4 border-primary"
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <h3 className="text-xl sm:text-2xl font-bold text-neutral dark:text-white mb-2">
+                Robert Dickinson
+              </h3>
+              <p className="text-primary font-medium mb-4">
+                Autodesk Technologist | 50+ Years in Water Infrastructure | Network School Participant
+              </p>
+              <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                I attended Network School at Forest City for 70 days, coinciding with my 70th birthday. With over 50 years of experience in water infrastructure modeling (SWMM) and 20+ years at Autodesk/Innovyze, I created this website to share why it's beneficial to learn and exercise at Network School after age 70.
+              </p>
+              <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                My experience here has been transformative - engaging in learning, fitness, and connecting with smart young builders from around the world. Network School proves that lifelong learning has no age limit.
+              </p>
+              <div className="flex justify-center md:justify-start gap-4">
+                <a 
+                  href="https://x.com/RDickinson" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a 
+                  href="https://www.linkedin.com/in/robertdickinson/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a 
+                  href="https://swmm5.org" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+                >
+                  <Globe className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Location Highlight */}
       <section className="py-20 bg-gradient-to-r from-primary to-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
