@@ -118,7 +118,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-purple-600/20 to-black/40"></div>
               <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Dumbbell className="text-primary mb-3 sm:mb-4" size={36} />
+                <Dumbbell className="text-primary mb-3 sm:mb-3 sm:mb-4" size={36} />
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 leading-tight">{t.fitness.title}</h3>
                 <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                   {t.fitness.description}
@@ -135,7 +135,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-br from-green-600/30 via-blue-600/20 to-black/40"></div>
               <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Waves className="text-primary mb-3 sm:mb-4" size={36} />
+                <Waves className="text-primary mb-3 sm:mb-3 sm:mb-4" size={36} />
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 leading-tight">{t.pools.title}</h3>
                 <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                   {t.pools.description}
@@ -144,17 +144,17 @@ export default function Home() {
             </Card>
 
             {/* Nutrition */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 via-pink-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Utensils className="text-primary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.nutrition.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Utensils className="text-primary mb-3 sm:mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.nutrition.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.nutrition.description}
                 </p>
                 <Button 
@@ -169,7 +169,7 @@ export default function Home() {
             </Card>
 
             {/* Morning Ruck */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -180,10 +180,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Sun className="text-secondary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.morningRuck.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Sun className="text-secondary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.morningRuck.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.morningRuck.description}
                 </p>
                 <Button 
@@ -198,7 +198,7 @@ export default function Home() {
             </Card>
 
             {/* Smart Young People */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -209,10 +209,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Users className="text-secondary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.smartYoungPeople.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Users className="text-secondary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.smartYoungPeople.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.smartYoungPeople.description}
                 </p>
                 <Button 
@@ -227,7 +227,7 @@ export default function Home() {
             </Card>
 
             {/* AI Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -238,17 +238,17 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Bot className="text-secondary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.aiClasses.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Bot className="text-secondary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.aiClasses.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.aiClasses.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Book Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -259,10 +259,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Book className="text-accent mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.bookClubs.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Book className="text-accent mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.bookClubs.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.bookClubs.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -287,7 +287,7 @@ export default function Home() {
             </Card>
 
             {/* Vibe Coding */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -298,10 +298,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Code className="text-accent mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.coding.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Code className="text-accent mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.coding.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.coding.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -326,7 +326,7 @@ export default function Home() {
             </Card>
 
             {/* Network States */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -337,10 +337,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Globe className="text-accent mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.networkStates.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Globe className="text-accent mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.networkStates.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.networkStates.description}
                 </p>
                 <Button 
@@ -355,7 +355,7 @@ export default function Home() {
             </Card>
 
             {/* Improv Classes */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -366,17 +366,17 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <TheaterIcon className="text-primary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.improv.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <TheaterIcon className="text-primary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.improv.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.improv.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Country Rock Night */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -387,17 +387,17 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Guitar className="text-primary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.countryRock.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Guitar className="text-primary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.countryRock.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.countryRock.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Better Person */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -408,17 +408,17 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Heart className="text-primary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.betterPerson.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Heart className="text-primary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.betterPerson.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.betterPerson.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Global Community */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -429,10 +429,10 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Users className="text-secondary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.globalCommunity.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Users className="text-secondary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.globalCommunity.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.globalCommunity.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -457,7 +457,7 @@ export default function Home() {
             </Card>
 
             {/* Crypto & Web3 */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <div 
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -468,44 +468,44 @@ export default function Home() {
                 }}
               ></div>
               <div className="absolute inset-0 bg-black/20"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Bitcoin className="text-secondary mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.cryptoWeb3.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Bitcoin className="text-secondary mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.cryptoWeb3.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.cryptoWeb3.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Video Creation */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-red-600/30 via-pink-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Video className="text-red-600 mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.videoCreation.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Video className="text-red-600 mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.videoCreation.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.videoCreation.description}
                 </p>
               </CardContent>
             </Card>
 
             {/* Sponge City */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-cyan-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Droplets className="text-blue-600 mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.spongeCity.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Droplets className="text-blue-600 mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.spongeCity.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.spongeCity.description}
                 </p>
                 <Button 
@@ -520,17 +520,17 @@ export default function Home() {
             </Card>
 
             {/* Lifelong Learning */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-purple-600/30 via-indigo-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <BookOpen className="text-purple-600 mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.lifelongLearning.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <BookOpen className="text-purple-600 mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.lifelongLearning.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300 mb-3 sm:mb-4">
                   {t.lifelongLearning.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -555,17 +555,17 @@ export default function Home() {
             </Card>
 
             {/* Idea Factory */}
-            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[300px]">
+            <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
               <img 
                 src="/forest-city.png" 
                 alt="Forest City" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-yellow-600/30 via-orange-600/20 to-black/40"></div>
-              <CardContent className="p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
-                <Lightbulb className="text-yellow-600 mb-4" size={48} />
-                <h3 className="text-2xl font-bold mb-4">{t.ideaFactory.title}</h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300">
+              <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
+                <Lightbulb className="text-yellow-600 mb-3 sm:mb-4" size={36} />
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">{t.ideaFactory.title}</h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
                   {t.ideaFactory.description}
                 </p>
               </CardContent>

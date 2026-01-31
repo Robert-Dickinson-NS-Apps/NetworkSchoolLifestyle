@@ -181,6 +181,40 @@
       min-height: 44px;
       min-width: 44px;
     }
+
+    /* Mobile card fixes */
+    .card-content-mobile {
+      padding: 1rem !important;
+    }
+
+    /* Ensure images don't break layout */
+    img, video {
+      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Mobile card text readability */
+    [class*="CardContent"] {
+      background: rgba(255, 255, 255, 0.98) !important;
+    }
+
+    .dark [class*="CardContent"] {
+      background: rgba(31, 41, 55, 0.98) !important;
+    }
+
+    /* Prevent text overflow on mobile */
+    h1, h2, h3, h4, p {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    /* Better button sizing on mobile */
+    button {
+      min-height: 44px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
   }
 
   /* High-resolution displays (Retina) */
