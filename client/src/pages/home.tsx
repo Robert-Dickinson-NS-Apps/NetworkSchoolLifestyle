@@ -102,6 +102,22 @@ export default function Home() {
         </nav>
       </header>
 
+      {/* Personal Intro Banner */}
+      <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 border-b border-amber-200 dark:border-amber-800">
+        <div className="max-w-5xl mx-auto px-4 py-4 sm:py-5">
+          <div className="flex items-center gap-4">
+            <img 
+              src="/images/robert-dickinson.png" 
+              alt="Robert Dickinson"
+              className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-amber-400 flex-shrink-0"
+            />
+            <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+              <span className="font-semibold">I'm Robert Dickinson, 70 years old</span>, living long-term at Network School in Forest City. Most residents here are in their 20s and 30s—ambitious builders, coders, and entrepreneurs. <span className="text-amber-700 dark:text-amber-400 font-medium">Here's why I love being part of this community.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Hero */}
       <section className="relative py-8 sm:py-12 overflow-hidden min-h-[50vh] sm:min-h-[60vh] flex items-center">
         <img 
