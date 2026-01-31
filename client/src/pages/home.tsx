@@ -103,7 +103,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 py-4 sm:py-5">
           <div className="flex items-center gap-4">
             <img 
-              src="/images/robert-dickinson.png" 
+              src="/images/robert-dickinson.jpg" 
               alt="Robert Dickinson"
               className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-amber-400 flex-shrink-0"
             />
@@ -742,7 +742,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
               <img 
-                src="/images/robert-dickinson.png" 
+                src="/images/robert-dickinson.jpg" 
                 alt="Robert Dickinson"
                 className="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover shadow-lg border-4 border-primary"
               />
