@@ -47,9 +47,12 @@ export default function Home() {
             </div>
             
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-6">
+            <div className="hidden lg:flex items-center space-x-5">
+              <a href="#mystory" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
+                My Story
+              </a>
               <a href="#health" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
-                Health & Fitness
+                Health
               </a>
               <a href="#learning" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
                 Learning
@@ -57,8 +60,8 @@ export default function Home() {
               <a href="#community" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
                 Community
               </a>
-              <a href="#innovation" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
-                Innovation
+              <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
+                About
               </a>
               <a 
                 href="mailto:robert.dickinson@gmail.com?subject=Considering%20Network%20School%20at%2070%2B" 
@@ -75,7 +78,10 @@ export default function Home() {
           </div>
           
           {/* Mobile Navigation */}
-          <div className="flex lg:hidden justify-center space-x-4 mt-3 pt-3 border-t border-gray-200 dark:border-gray-700 overflow-x-auto">
+          <div className="flex lg:hidden justify-center space-x-3 mt-3 pt-3 border-t border-gray-200 dark:border-gray-700 overflow-x-auto">
+            <a href="#mystory" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
+              My Story
+            </a>
             <a href="#health" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
               Health
             </a>
@@ -85,14 +91,14 @@ export default function Home() {
             <a href="#community" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
               Community
             </a>
-            <a href="#innovation" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
-              Innovation
+            <a href="#about" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
+              About
             </a>
             <a 
               href="mailto:robert.dickinson@gmail.com?subject=Considering%20Network%20School%20at%2070%2B" 
               className="text-xs text-amber-600 font-semibold whitespace-nowrap"
             >
-              Let's Talk
+              Contact
             </a>
           </div>
         </nav>
@@ -162,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Intergenerational Magic Section */}
-      <section className="py-12 sm:py-16 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
+      <section id="mystory" className="py-12 sm:py-16 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 scroll-mt-24">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-3">
