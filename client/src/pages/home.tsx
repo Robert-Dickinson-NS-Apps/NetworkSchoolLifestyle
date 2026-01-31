@@ -797,6 +797,55 @@ export default function Home() {
         </div>
       </section>
 
+      {/* People to Follow on X */}
+      <section className="py-12 sm:py-16 bg-gray-50 dark:bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-neutral dark:text-white mb-2">
+              People to Follow on X
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">
+              Want to see Network School life in real-time? Follow these amazing people:
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a 
+              href="https://x.com/nikkideyy" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-center group"
+            >
+              <div className="text-4xl mb-3">📸</div>
+              <h3 className="font-bold text-lg text-neutral dark:text-white group-hover:text-primary transition-colors">@nikkideyy</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">NS Life IRL - See daily life at Network School</p>
+            </a>
+            
+            <a 
+              href="https://x.com/rami_decodes" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-center group"
+            >
+              <div className="text-4xl mb-3">💻</div>
+              <h3 className="font-bold text-lg text-neutral dark:text-white group-hover:text-primary transition-colors">@rami_decodes</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Vibe Coding - Learn how we build at NS</p>
+            </a>
+            
+            <a 
+              href="https://x.com/James_of_Arc" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-center group"
+            >
+              <div className="text-4xl mb-3">🌐</div>
+              <h3 className="font-bold text-lg text-neutral dark:text-white group-hover:text-primary transition-colors">@James_of_Arc</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Future Network States - Insights on what's next</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Location Highlight */}
       <section className="py-20 bg-gradient-to-r from-primary to-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
