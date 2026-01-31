@@ -176,9 +176,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <Card className="bg-white dark:bg-gray-800 shadow-lg p-6">
               <div className="text-4xl mb-4">👨‍💻</div>
-              <h3 className="text-lg font-bold text-neutral dark:text-white mb-2">From the 26-Year-Old Next Door</h3>
+              <h3 className="text-lg font-bold text-neutral dark:text-white mb-2">What I Learn from My Young Neighbors</h3>
               <p className="text-gray-600 dark:text-gray-300 italic">
-                "My neighbor debugs my code over breakfast. In return, I share 50 years of lessons about patience, persistence, and why most problems aren't actually urgent."
+                "What I learn from people 50, 40, and sometimes 60 years younger is how exciting it is to be alive, learning and creating with artistry and passion."
               </p>
             </Card>
             
