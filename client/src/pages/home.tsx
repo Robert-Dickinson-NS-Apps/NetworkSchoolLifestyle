@@ -117,8 +117,8 @@ export default function Home() {
       {/* Hero */}
       <section className="relative py-8 sm:py-12 overflow-hidden min-h-[50vh] sm:min-h-[60vh] flex items-center">
         <img 
-          src="/forest-city.png" 
-          alt="Forest City Malaysia" 
+          src="/images/ns-beach.png" 
+          alt="Network School Beach at Forest City Malaysia" 
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40"></div>
