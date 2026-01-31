@@ -37,24 +37,67 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
-        <nav className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
+        <nav className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <GraduationCap className="text-primary mr-2 sm:mr-3" size={32} />
-              <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-neutral dark:text-white truncate">
+              <GraduationCap className="text-primary mr-2" size={28} />
+              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-neutral dark:text-white truncate">
                 {t.siteTitle}
               </span>
             </div>
-            <div className="flex items-center space-x-2 sm:space-x-4">
-              <Link href="/docs" className="hidden sm:block">
-                <Button variant="outline" size="sm" className="flex items-center space-x-2">
-                  <FileText className="h-4 w-4" />
-                  <span>Documentation</span>
-                </Button>
-              </Link>
+            
+            {/* Desktop Navigation */}
+            <div className="hidden lg:flex items-center space-x-6">
+              <a href="#health" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
+                Health & Fitness
+              </a>
+              <a href="#learning" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
+                Learning
+              </a>
+              <a href="#community" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
+                Community
+              </a>
+              <a href="#innovation" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors font-medium">
+                Innovation
+              </a>
+              <a 
+                href="https://ns.com/apply" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-primary text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+              >
+                Apply Now
+              </a>
+            </div>
+
+            <div className="flex items-center space-x-2">
               <ThemeToggle />
               <LanguageSelector />
             </div>
+          </div>
+          
+          {/* Mobile Navigation */}
+          <div className="flex lg:hidden justify-center space-x-4 mt-3 pt-3 border-t border-gray-200 dark:border-gray-700 overflow-x-auto">
+            <a href="#health" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
+              Health
+            </a>
+            <a href="#learning" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
+              Learning
+            </a>
+            <a href="#community" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
+              Community
+            </a>
+            <a href="#innovation" className="text-xs text-gray-600 dark:text-gray-300 hover:text-primary whitespace-nowrap">
+              Innovation
+            </a>
+            <a 
+              href="https://ns.com/apply" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xs text-primary font-semibold whitespace-nowrap"
+            >
+              Apply
+            </a>
           </div>
         </nav>
       </header>
@@ -100,14 +143,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Advantages Grid */}
-      <section className="py-12 sm:py-20 bg-white dark:bg-gray-800">
+      {/* Health & Fitness Section */}
+      <section id="health" className="py-12 sm:py-16 bg-white dark:bg-gray-800 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-neutral dark:text-white mb-8 sm:mb-16 leading-tight">
-            {t.advantagesTitle}
-          </h2>
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-2">
+              Health & Fitness
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">Stay active with world-class facilities</p>
+          </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             
             {/* Fitness */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden min-h-[280px] sm:min-h-[320px] transform hover:scale-105">
@@ -196,6 +242,21 @@ export default function Home() {
                 </Button>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Learning & Growth Section */}
+      <section id="learning" className="py-12 sm:py-16 bg-gray-50 dark:bg-gray-900 scroll-mt-24">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-2">
+              Learning & Growth
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">Expand your mind with new skills and knowledge</p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {/* Smart Young People */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
@@ -324,6 +385,21 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Social & Community Section */}
+      <section id="community" className="py-12 sm:py-16 bg-white dark:bg-gray-800 scroll-mt-24">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-2">
+              Social & Community
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">Connect with people from around the world</p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {/* Network States */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
@@ -476,6 +552,21 @@ export default function Home() {
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Innovation & Future Section */}
+      <section id="innovation" className="py-12 sm:py-16 bg-gray-50 dark:bg-gray-900 scroll-mt-24">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-2">
+              Innovation & Future
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">Be part of building the future</p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
             {/* Video Creation */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
