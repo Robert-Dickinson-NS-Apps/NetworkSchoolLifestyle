@@ -108,7 +108,7 @@ export default function Home() {
               className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-amber-400 flex-shrink-0"
             />
             <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-              <span className="font-semibold">I'm Robert Dickinson, 70 years old</span>, living long-term at Network School in Forest City, Malaysia. Most residents here are in their 20s and 30s—ambitious builders, coders, and entrepreneurs. <span className="text-amber-700 dark:text-amber-400 font-medium">Here's why I love being part of this community.</span>
+              <span className="font-semibold">I'm Robert Dickinson, 70 years old</span>, living long-term at Network School in Forest City, Malaysia. I attended for 100 days in 2025 and probably at least 120 days in 2026. Most residents here are in their 20s and 30s—ambitious builders, coders, and entrepreneurs. <span className="text-amber-700 dark:text-amber-400 font-medium">Here's why I love being part of this community.</span>
             </p>
           </div>
         </div>
