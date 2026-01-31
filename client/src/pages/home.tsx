@@ -61,12 +61,10 @@ export default function Home() {
                 Innovation
               </a>
               <a 
-                href="https://ns.com/apply" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-primary text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                href="mailto:robert.dickinson@gmail.com?subject=Considering%20Network%20School%20at%2070%2B" 
+                className="bg-amber-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-600 transition-colors"
               >
-                Apply Now
+                Let's Talk
               </a>
             </div>
 
@@ -91,12 +89,10 @@ export default function Home() {
               Innovation
             </a>
             <a 
-              href="https://ns.com/apply" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-xs text-primary font-semibold whitespace-nowrap"
+              href="mailto:robert.dickinson@gmail.com?subject=Considering%20Network%20School%20at%2070%2B" 
+              className="text-xs text-amber-600 font-semibold whitespace-nowrap"
             >
-              Apply
+              Let's Talk
             </a>
           </div>
         </nav>
@@ -146,14 +142,20 @@ export default function Home() {
             <span className="text-center">Forest City, Malaysia • 15 minutes to Singapore</span>
           </div>
           
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
             <a 
               href="https://ns.com/apply" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-primary text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 min-h-[48px] flex items-center justify-center"
+              className="bg-primary text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 min-h-[48px] flex items-center justify-center"
             >
-              {t.applyNow}
+              Visit for a Month & See for Yourself
+            </a>
+            <a 
+              href="mailto:robert.dickinson@gmail.com?subject=Considering%20Network%20School%20at%2070%2B" 
+              className="bg-amber-500 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-amber-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 min-h-[48px] flex items-center justify-center"
+            >
+              Considering Something Different? Let's Talk
             </a>
           </div>
         </div>
