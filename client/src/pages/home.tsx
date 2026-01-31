@@ -598,15 +598,11 @@ export default function Home() {
 
             {/* Crypto & Web3 */}
             <Card className="h-full shadow-lg hover:shadow-xl transition-shadow relative overflow-hidden min-h-[250px] sm:min-h-[280px] lg:min-h-[300px]">
-              <div 
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/forest-city.png')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat'
-                }}
-              ></div>
+              <img 
+                src="/images/solana-outpost.png" 
+                alt="Solana Network State Outpost at Network School" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-black/20"></div>
               <CardContent className="p-4 sm:p-6 lg:p-8 relative z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm">
                 <Bitcoin className="text-secondary mb-3 sm:mb-4" size={36} />
