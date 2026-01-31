@@ -153,15 +153,15 @@ export const translations: Record<string, Translation> = {
     },
     morningRuck: {
       title: "Morning Ruck Walks",
-      description: "Start your day with energizing group walks. Build strength and community while exploring Forest City."
+      description: "I walk with founders half my age. They get my life experience; I get their energy. We solve problems together before 8am."
     },
     smartYoungPeople: {
       title: "Smart Younger People",
-      description: "Get fresh perspectives on life from brilliant young minds. Learn from each other and stay mentally sharp."
+      description: "Living alongside brilliant 20-somethings keeps me sharp. My neighbor debugs my code; I share 50 years of life lessons. The kids under 10 are amazing vibe coders too!"
     },
     aiClasses: {
       title: "AI Classes",
-      description: "Learn about artificial intelligence in practical, easy-to-understand ways. Stay current with the future of technology."
+      description: "I'd never touched AI before moving here. Now I use ChatGPT daily and built my first app. The young instructors are patient and assume nothing."
     },
     bookClubs: {
       title: "Book Classes",
@@ -169,7 +169,7 @@ export const translations: Record<string, Translation> = {
     },
     coding: {
       title: "Vibe Coding",
-      description: "Learn new tools like vibe coding - modern programming made accessible. Create and build in the digital age."
+      description: "At 70, I'm learning to code. Not because I need a job, but because creating things is energizing. My neighbor (age 26) debugs my code over breakfast."
     },
     networkStates: {
       title: "Build Network States",

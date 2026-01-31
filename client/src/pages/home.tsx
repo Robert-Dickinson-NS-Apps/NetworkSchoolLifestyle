@@ -143,6 +143,52 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Intergenerational Magic Section */}
+      <section className="py-12 sm:py-16 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral dark:text-white mb-3">
+              What I've Learned from My Young Neighbors
+            </h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+              The magic of Network School isn't just the facilities—it's living and learning alongside brilliant people of all ages
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <Card className="bg-white dark:bg-gray-800 shadow-lg p-6">
+              <div className="text-4xl mb-4">👨‍💻</div>
+              <h3 className="text-lg font-bold text-neutral dark:text-white mb-2">From the 26-Year-Old Next Door</h3>
+              <p className="text-gray-600 dark:text-gray-300 italic">
+                "My neighbor debugs my code over breakfast. In return, I share 50 years of lessons about patience, persistence, and why most problems aren't actually urgent."
+              </p>
+            </Card>
+            
+            <Card className="bg-white dark:bg-gray-800 shadow-lg p-6">
+              <div className="text-4xl mb-4">👧</div>
+              <h3 className="text-lg font-bold text-neutral dark:text-white mb-2">From Kids Under 10</h3>
+              <p className="text-gray-600 dark:text-gray-300 italic">
+                "The children here are amazing vibe coders. They approach technology without fear. Watching them reminds me that learning should be playful, not stressful."
+              </p>
+            </Card>
+            
+            <Card className="bg-white dark:bg-gray-800 shadow-lg p-6">
+              <div className="text-4xl mb-4">🏃</div>
+              <h3 className="text-lg font-bold text-neutral dark:text-white mb-2">From the Morning Ruck Crew</h3>
+              <p className="text-gray-600 dark:text-gray-300 italic">
+                "Walking with startup founders half my age before 8am. They get my life experience; I get their energy. We solve problems together while the sun rises."
+              </p>
+            </Card>
+          </div>
+          
+          <div className="text-center">
+            <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+              At 70, I'm not here to retire—I'm here to learn, create, and contribute. The intergenerational mix makes every day an adventure.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Health & Fitness Section */}
       <section id="health" className="py-12 sm:py-16 bg-white dark:bg-gray-800 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4">
